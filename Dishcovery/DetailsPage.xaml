@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Dishcovery.DetailsPage"
+             xmlns:viewmodel="clr-namespace:Dishcovery.ViewModel"
+             x:DataType="viewmodel:RecipeDetailViewModel"
+             Title="{Binding Recipe.Name}">
+    <VerticalStackLayout>
+        <Image Source="{Binding Recipe.ImageLink}"/>
+        <Label Text="{Binding Recipe.Name}" 
+               FontFamily="NunitoSansBold"
+               FontSize="Large"/>
+        <HorizontalStackLayout Spacing="10">
+            <Label FontFamily="NunitoSansRegular" Text="{Binding Recipe.Rating, StringFormat='Рейтинг: {0}'}"/>
+            <Label FontFamily="NunitoSansRegular" Text="{Binding Recipe.Calories, StringFormat='Калории: {0}'}"/>
+            <Label FontFamily="NunitoSansRegular">
+                <Label.Text>
+                    <MultiBinding StringFormat="Время приготовления: {0}:{1}">
+                        <Binding Path="Recipe.CookingTime.Hours" />
+                        <Binding Path="Recipe.CookingTime.Minutes" />
+                    </MultiBinding>
+                </Label.Text>
+            </Label>
+        </HorizontalStackLayout>
+        <Label Text="Ингредиенты:" 
+               FontFamily="NunitoSansRegular"
+               FontSize="Medium"/>
+        <CollectionView ItemsSource="{Binding Recipe.Ingredients}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Label FontFamily="NunitoSansRegular">
+                        <Label.Text>
+                            <MultiBinding StringFormat="- {0} ({1} {2})">
+                                <Binding Path="Name" />
+                                <Binding Path="Measurement" />
+                                <Binding Path="Type" />
+                            </MultiBinding>
+                        </Label.Text>
+                    </Label>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Label Text="Рецепт: " 
+               FontFamily="NunitoSansRegular"
+               FontSize="Medium"/>
+        <Label Text="(будет позже)" 
+               FontFamily="NunitoSansRegular"/>
+    </VerticalStackLayout>
+</ContentPage>

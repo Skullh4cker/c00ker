@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:model="clr-namespace:Dishcovery.Model"
+             xmlns:viewmodel ="clr-namespace:Dishcovery.ViewModel" 
+             x:DataType="viewmodel:RecipesViewModel"
+             xmlns:views="clr-namespace:Dishcovery"
+             x:Class="Dishcovery.SearchPage">
+    
+    <Shell.TitleView>
+        <Label VerticalOptions="Center" 
+               FontFamily="NunitoSansBold" 
+               Text="Поиск"
+               FontSize="Large"
+               TextColor="{StaticResource White}"/>
+    </Shell.TitleView>
+    
+    <Grid RowDefinitions="Auto,*" BackgroundColor="{StaticResource WhiteGray}" RowSpacing="5" Padding="3">
+        <Frame Style="{StaticResource CardView}" HeightRequest="35">
+            <Grid ColumnDefinitions="*, *, *, Auto" RowDefinitions="Auto" ColumnSpacing="5">
+                <views:CursorEntry  x:Name="searchEntry"
+                                      Placeholder="Введите название..." 
+                                      BackgroundColor="{StaticResource White}"
+                                      Grid.Column="0"
+                                      Grid.ColumnSpan="3"
+                                      HeightRequest="37"
+                                      CursorColor="{StaticResource Primary}"
+                                      />
+                <ImageButton Grid.Column="3" x:Name="SearchButton" 
+                         Source="search_icon.png"
+                         WidthRequest="35"
+                         HeightRequest="35" 
+                         BackgroundColor="{StaticResource White}" 
+                         CornerRadius="5"
+                         Clicked="SearchButton_Clicked">
+                </ImageButton>
+            </Grid>
+        </Frame>
+        <!--<Frame Grid.Row="1" Style="{StaticResource CardView}" HeightRequest="35">
+            <Grid ColumnDefinitions="*, *, *, Auto, Auto" RowDefinitions="Auto" ColumnSpacing="5">
+                <views:CursorEntry Placeholder="Введите ингредиент..."
+                                      BackgroundColor="{StaticResource White}"
+                                      Grid.Column="0"
+                                      Grid.ColumnSpan="3"
+                                      HeightRequest="37"
+                                      CursorColor="{StaticResource Primary}"/>
+                <ImageButton Grid.Column="3" 
+                         Source="plus_icon.png"
+                         WidthRequest="30"
+                         HeightRequest="30" 
+                         BackgroundColor="{StaticResource White}"
+                         CornerRadius="5"/>
+                <ImageButton Grid.Column="4" 
+                         Source="minus_icon.png"
+                         WidthRequest="33"
+                         HeightRequest="30" 
+                         BackgroundColor="{StaticResource White}" 
+                         CornerRadius="5"/>
+            </Grid>
+        </Frame>-->
+        <!--<Frame Grid.Row="2" Style="{StaticResource CardView}" MinimumHeightRequest="35">
+            <Grid ColumnDefinitions="*, *, *, Auto, Auto" RowDefinitions="Auto" ColumnSpacing="5">
+                <CollectionView BackgroundColor="Transparent"
+                        Grid.ColumnSpan="2"
+                        SelectionMode="None"
+                                ItemsSource="{Binding }">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="model:Recipe">
+                            <Grid Padding="10">
+                                <Frame HeightRequest="125" Padding="0" Style="{StaticResource CardView}">
+                                    <Grid Padding="0"
+                                  ColumnDefinitions="125,*">
+                                        <Image Aspect="AspectFill"
+                                       Source="{Binding ImageLink}"/>
+                                        <VerticalStackLayout Grid.Column="1"
+                                                     Padding="10"
+                                                     VerticalOptions="Center">
+                                            <Label Text="{Binding Name}"
+                                           Style="{StaticResource MediumLabel}"/>
+                                            <Label Text="{Binding Link}"
+                                           Style="{StaticResource SmallLabel}"/>
+                                        </VerticalStackLayout>
+                                    </Grid>
+                                </Frame>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Grid>
+        </Frame>-->
+        <CollectionView BackgroundColor="Transparent"
+                        ItemsSource="{Binding Recipes}"
+                        SelectionMode="None"
+                        Grid.Row="1">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:Recipe">
+                    <Grid Padding="3">
+                        <Frame HeightRequest="125" Padding="0" Style="{StaticResource CardView}">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer CommandParameter="{Binding .}"
+                                                      Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:RecipesViewModel}}, Path=GoToDetailsCommand}"/>
+                            </Frame.GestureRecognizers>
+                            <Grid Padding="0"
+                                  ColumnDefinitions="125,*">
+                                <Image Aspect="AspectFill"
+                                       Source="{Binding ImageLink}"/>
+                                <VerticalStackLayout Grid.Column="1"
+                                                     Padding="5"
+                                                     VerticalOptions="Center">
+                                    <Label Text="{Binding Name}" FontSize="18"/>
+                                    <HorizontalStackLayout Spacing="10">
+                                        <Label Text="{Binding Rating, StringFormat='Рейтинг: {0}'}"/>
+                                        <Label Text="{Binding Calories, StringFormat='Калории: {0}'}"/>
+                                    </HorizontalStackLayout>
+                                    <Label>
+                                        <Label.Text>
+                                            <MultiBinding StringFormat="Время приготовления: {0}:{1}">
+                                                <Binding Path="CookingTime.Hours" />
+                                                <Binding Path="CookingTime.Minutes" />
+                                            </MultiBinding>
+                                        </Label.Text>
+                                    </Label>
+                                </VerticalStackLayout>
+                            </Grid>
+                        </Frame>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <ActivityIndicator IsVisible="{Binding IsBusy}"
+                           IsRunning="{Binding IsBusy}"
+                           Color="{StaticResource Primary}"
+                           HorizontalOptions="FillAndExpand"
+                           VerticalOptions="CenterAndExpand"
+                           Grid.Row="1"
+                           Grid.RowSpan="2"
+                           Grid.ColumnSpan="2"/>
+    </Grid>
+</ContentPage>
