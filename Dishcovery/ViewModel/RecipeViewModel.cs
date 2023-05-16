@@ -10,9 +10,8 @@ namespace Dishcovery.ViewModel;
 
 public partial class RecipesViewModel : BaseViewModel
 {
-    public RequestFilter RequestFilter { get; set; } = new RequestFilter();
     RecipeService recipeService;
-    //public DataIngredient SearchedIngredient { get; set; }
+    public RequestFilter RequestFilter { get; set; } = new RequestFilter();
     public ObservableCollection<Recipe> Recipes { get; } = new();
     public ObservableCollection<DataIngredient> Ingredients { get; set; } = new();
     public ObservableCollection<DataIngredient> IngredientsHints { get; set; } = new();
@@ -29,7 +28,6 @@ public partial class RecipesViewModel : BaseViewModel
     public ICommand DeleteProhibitedTagTabCommand { get; set; }
     public ICommand ClearAllTabsCommand { get; set; }
     public ICommand SearchCommand { get; set; }
-    public Request Requests { get; set; } = new Request();
 
     public RecipesViewModel(RecipeService recipeService)
     {
@@ -45,13 +43,11 @@ public partial class RecipesViewModel : BaseViewModel
                 if (ing.Name.ToLower() == IngredientName.ToLower() && (IngredientQuantity != "" && IngredientQuantity != null) && (IngredientMeasurement != "" && IngredientMeasurement != null))
                 {
                     var ingr = new IngredientView(ing.Name, IngredientImportance, double.Parse(IngredientQuantity), IngredientMeasurement, ing.ID, ing.GramsInPce, ing.GramsInCup);
-                    Requests.AvailableIngredients.Add(ingr);
                     RequestFilter.RequireIngredient(ingr);
                 }
                 else if (ing.Name.ToLower() == IngredientName.ToLower())
                 {
                     var ingr = new IngredientView(ing.Name, IngredientImportance, ing.ID, ing.GramsInPce, ing.GramsInCup);
-                    Requests.AvailableIngredients.Add(ingr);
                     RequestFilter.RequireIngredient(ingr);
                 }
             }

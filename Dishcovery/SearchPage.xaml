@@ -226,7 +226,7 @@
                                     <HorizontalStackLayout Spacing="10"
                                                      Padding="10"
                                                      VerticalOptions="Center">
-                                        <Grid ColumnDefinitions="*, 10" VerticalOptions="Center">
+                                        <Grid ColumnDefinitions="*, Auto" VerticalOptions="Center">
                                             <Label FontFamily="NunitoSansRegular" WidthRequest="130" HorizontalOptions="Start" Text="{Binding ViewString}" TextColor="{StaticResource Black}"/>
                                             <ImageButton Command="{Binding Path = BindingContext.DeleteIngredientTabCommand, Source={x:Reference likedIngredients}}" CommandParameter="{Binding .}"
                                                     Grid.Column="1"
@@ -255,7 +255,7 @@
                                     <HorizontalStackLayout Spacing="10" 
                                                            Padding="10" 
                                                            VerticalOptions="Center">
-                                        <Grid ColumnDefinitions="*, 10" VerticalOptions="Center">
+                                        <Grid ColumnDefinitions="*, Auto" VerticalOptions="Center">
                                             <Label FontFamily="NunitoSansRegular" WidthRequest="130" HorizontalOptions="Start" Text="{Binding Name}" TextColor="{StaticResource Black}"/>
                                             <ImageButton Command="{Binding Path = BindingContext.DeleteTagTabCommand, Source={x:Reference likedTags}}" CommandParameter="{Binding .}"
                                                     Grid.Column="1"
@@ -283,7 +283,7 @@
                                        BorderColor="Transparent">
                                     <HorizontalStackLayout Spacing="10" Padding="10"
                                                      VerticalOptions="Center">
-                                        <Grid ColumnDefinitions="*, 10" VerticalOptions="Center">
+                                        <Grid ColumnDefinitions="*, Auto" VerticalOptions="Center">
                                             <Label FontFamily="NunitoSansRegular" WidthRequest="130" HorizontalOptions="Start" Text="{Binding ViewString}" TextColor="{StaticResource Black}"/>
                                             <ImageButton Command="{Binding Path = BindingContext.DeleteProhibitedIngredientTabCommand, Source={x:Reference dislikedIngredients}}" CommandParameter="{Binding .}"
                                                     Grid.Column="1"
@@ -312,7 +312,7 @@
                                     <HorizontalStackLayout Spacing="10" 
                                                            Padding="10" 
                                                            VerticalOptions="Center">
-                                        <Grid ColumnDefinitions="*, 10" VerticalOptions="Center">
+                                        <Grid ColumnDefinitions="*, Auto" VerticalOptions="Center">
                                             <Label FontFamily="NunitoSansRegular" WidthRequest="130" HorizontalOptions="Start" Text="{Binding Name}" TextColor="{StaticResource Black}"/>
                                             <ImageButton Command="{Binding Path = BindingContext.DeleteProhibitedTagTabCommand, Source={x:Reference dislikedTags}}" CommandParameter="{Binding .}"
                                                     Grid.Column="1"
@@ -355,7 +355,8 @@
                                 <Image Aspect="AspectFill">
                                     <Image.Source>
                                         <UriImageSource Uri="{Binding ImageLink}"
-                                                        CachingEnabled="False"/>
+                                                        CachingEnabled="True"
+                                                        CacheValidity="14"/>
                                     </Image.Source>
                                 </Image>
                                 <VerticalStackLayout Grid.Column="1"
