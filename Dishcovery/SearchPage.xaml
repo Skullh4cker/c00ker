@@ -7,7 +7,7 @@
              x:DataType="viewmodel:RecipesViewModel"
              xmlns:views="clr-namespace:Dishcovery"
              x:Class="Dishcovery.SearchPage">
-    
+
     <Shell.TitleView>
         <Label VerticalOptions="Center" 
                FontFamily="NunitoSansBold" 
@@ -15,84 +15,333 @@
                FontSize="Large"
                TextColor="{StaticResource White}"/>
     </Shell.TitleView>
-    
-    <Grid RowDefinitions="Auto,*" BackgroundColor="{StaticResource WhiteGray}" RowSpacing="5" Padding="3">
-        <Frame Style="{StaticResource CardView}" HeightRequest="35">
-            <Grid ColumnDefinitions="*, *, *, Auto" RowDefinitions="Auto" ColumnSpacing="5">
-                <views:CursorEntry  x:Name="searchEntry"
-                                      Placeholder="Введите название..." 
-                                      BackgroundColor="{StaticResource White}"
-                                      Grid.Column="0"
-                                      Grid.ColumnSpan="3"
-                                      HeightRequest="37"
-                                      CursorColor="{StaticResource Primary}"
-                                      />
-                <ImageButton Grid.Column="3" x:Name="SearchButton" 
-                         Source="search_icon.png"
+    <Grid RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto, *" BackgroundColor="{StaticResource WhiteGray}" RowSpacing="5" Padding="3">
+        <Grid ColumnDefinitions="*, Auto, Auto, Auto" ColumnSpacing="5">
+              <Frame Style="{StaticResource CardView}" HeightRequest="35">
+                  <Grid ColumnDefinitions="*, *, *, *, *, Auto" RowDefinitions="Auto" ColumnSpacing="5">
+                      <views:CursorEntry  x:Name="loveSearchEntry"
+                                          HorizontalOptions="Start"
+                                          WidthRequest="250"
+                                      Text="{Binding IngredientName}"
+                                    Placeholder="У меня есть..." 
+                                    BackgroundColor="{StaticResource White}"
+                                    Grid.Column="0"
+                                    Grid.ColumnSpan="5"
+                                    HeightRequest="37"
+                                    CursorColor="{StaticResource Primary}"
+                                    TextChanged="loveSearchEntry_TextChanged"/>
+                  </Grid>
+              </Frame>
+              <Frame Grid.Column="1" Style="{StaticResource CardView}" HorizontalOptions="Center" Padding="0" WidthRequest="50" HeightRequest="35">
+                    <views:CursorEntry x:Name="quantityEntry" 
+                    HorizontalOptions="Center"
+                    WidthRequest="30"
+                    Text="{Binding IngredientQuantity}"
+                    Keyboard="Numeric"
+                    Placeholder="........" 
+                    BackgroundColor="{StaticResource White}"
+                    HeightRequest="37"
+                    CursorColor="{StaticResource Primary}"/>
+                </Frame>
+              <Frame Grid.Column="2" Style="{StaticResource CardView}" WidthRequest="35" HeightRequest="35">
+                    <Picker HorizontalOptions="Center" x:Name="measurementPicker"
+                        WidthRequest="20"
+                        SelectedItem="{Binding IngredientMeasurement}" 
+                        ItemsSource="{Binding IngredientMeasurements}" HeightRequest="37" Title=".....">
+                    </Picker>
+                </Frame>
+              <Frame Grid.Column="3" Style="{StaticResource CardView}" WidthRequest="35" HeightRequest="35">
+                    <ImageButton x:Name="AddIngredientButton"
+                    Source="plus_icon.png"
                          WidthRequest="35"
-                         HeightRequest="35" 
-                         BackgroundColor="{StaticResource White}" 
-                         CornerRadius="5"
-                         Clicked="SearchButton_Clicked">
-                </ImageButton>
-            </Grid>
-        </Frame>
-        <!--<Frame Grid.Row="1" Style="{StaticResource CardView}" HeightRequest="35">
-            <Grid ColumnDefinitions="*, *, *, Auto, Auto" RowDefinitions="Auto" ColumnSpacing="5">
-                <views:CursorEntry Placeholder="Введите ингредиент..."
-                                      BackgroundColor="{StaticResource White}"
-                                      Grid.Column="0"
-                                      Grid.ColumnSpan="3"
-                                      HeightRequest="37"
-                                      CursorColor="{StaticResource Primary}"/>
-                <ImageButton Grid.Column="3" 
-                         Source="plus_icon.png"
-                         WidthRequest="30"
                          HeightRequest="30" 
                          BackgroundColor="{StaticResource White}"
-                         CornerRadius="5"/>
-                <ImageButton Grid.Column="4" 
+                         CornerRadius="5"
+                         Command="{Binding AddIngredientCommand}"
+                         Clicked="AddIngredientButton_Clicked"/>
+              </Frame>
+        </Grid>
+        <CollectionView x:Name="HintsCollectionView"
+            SelectionChanged="ItemSelected" 
+                        Grid.Row="1" 
+                        SelectionMode="Single" 
+                        ItemsSource="{Binding IngredientsHints}"
+                        BackgroundColor="Transparent" 
+                        MinimumHeightRequest="0" 
+                        MaximumHeightRequest="80">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:DataIngredient">
+                    <VerticalStackLayout Padding="3">
+                        <Label Text="{Binding Name}"></Label>
+                        <Rectangle Fill="{StaticResource Gray1}"
+                            HeightRequest="2"
+                            HorizontalOptions="Center"/>
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup Name="CommonStates">
+                                <VisualState Name="Normal" />
+                                <VisualState Name="Selected">
+                                    <VisualState.Setters>
+                                        <Setter Property="BackgroundColor" Value="{StaticResource Gray2}" />
+                                    </VisualState.Setters>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                    </VerticalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Slider Grid.Row="2" Maximum="1" Minimum="0" Value="{Binding IngredientImportance}" x:Name="ImportanceSlider"/>
+        <Grid Grid.Row="3" ColumnDefinitions="*, Auto, Auto, Auto" ColumnSpacing="5">
+            <Frame Style="{StaticResource CardView}" HeightRequest="35">
+                <Grid ColumnDefinitions="*, *, *, *, *, Auto" RowDefinitions="Auto" ColumnSpacing="5">
+                    <views:CursorEntry x:Name="hateIngredientEntry" HorizontalOptions="Start"
+                    Placeholder="Я не люблю..." Text="{Binding BannedIngredientName}"
+                    BackgroundColor="{StaticResource White}" Grid.Column="0"
+                    WidthRequest="330" Grid.ColumnSpan="5" HeightRequest="37"
+                    CursorColor="{StaticResource Primary}"
+                    TextChanged="hateIngredientEntry_TextChanged"/>
+                </Grid>
+            </Frame>
+            <Frame Grid.Column="1" Style="{StaticResource CardView}" HeightRequest="35">
+                <ImageButton x:Name="BanIngredientButton"
                          Source="minus_icon.png"
-                         WidthRequest="33"
+                         WidthRequest="35"
                          HeightRequest="30" 
-                         BackgroundColor="{StaticResource White}" 
-                         CornerRadius="5"/>
-            </Grid>
-        </Frame>-->
-        <!--<Frame Grid.Row="2" Style="{StaticResource CardView}" MinimumHeightRequest="35">
-            <Grid ColumnDefinitions="*, *, *, Auto, Auto" RowDefinitions="Auto" ColumnSpacing="5">
-                <CollectionView BackgroundColor="Transparent"
-                        Grid.ColumnSpan="2"
-                        SelectionMode="None"
-                                ItemsSource="{Binding }">
+                         BackgroundColor="{StaticResource White}"
+                         CornerRadius="5"
+                         Command="{Binding BanIngredientCommand}"
+                         Clicked="BanIngredientButton_Clicked"/>
+            </Frame>
+        </Grid>
+        <CollectionView x:Name="HintsCollectionView2"
+            SelectionChanged="HintsCollectionView_SelectionChanged" 
+                        Grid.Row="4" 
+                        SelectionMode="Single" 
+                        ItemsSource="{Binding IngredientsHints}"
+                        BackgroundColor="Transparent" 
+                        MinimumHeightRequest="0" 
+                        MaximumHeightRequest="80">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:DataIngredient">
+                    <VerticalStackLayout Padding="3">
+                        <Label Text="{Binding Name}"></Label>
+                        <Rectangle Fill="{StaticResource Gray1}"
+                            HeightRequest="2"
+                            HorizontalOptions="Center"/>
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup Name="CommonStates">
+                                <VisualState Name="Normal" />
+                                <VisualState Name="Selected">
+                                    <VisualState.Setters>
+                                        <Setter Property="BackgroundColor" Value="{StaticResource Gray2}" />
+                                    </VisualState.Setters>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                    </VerticalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Grid Grid.Row="5" ColumnDefinitions="*, Auto, Auto, Auto" ColumnSpacing="5">
+            <Frame Style="{StaticResource CardView}" HeightRequest="35">
+                <Grid ColumnDefinitions="*, *, *, *, *, Auto" RowDefinitions="Auto" ColumnSpacing="5">
+                    <views:CursorEntry x:Name="tagEntry" Placeholder="Теги..." HorizontalOptions="Start"
+                                      BackgroundColor="{StaticResource White}"
+                                      Text="{Binding TagName}"
+                                      Grid.Column="0"
+                                      Grid.ColumnSpan="5"
+                                      HeightRequest="37"
+                                      WidthRequest="300"
+                                      CursorColor="{StaticResource Primary}"
+                                       TextChanged="CursorEntry_TextChanged"/>
+                </Grid>
+            </Frame>
+            <Frame Grid.Column="1" Style="{StaticResource CardView}" HeightRequest="35">
+                <ImageButton x:Name="AddTagButton"
+                    Source="plus_icon.png"
+                         WidthRequest="35"
+                         HeightRequest="30" 
+                         BackgroundColor="{StaticResource White}"
+                         CornerRadius="5"
+                         Command="{Binding AddTagCommand}"
+                         Clicked="AddTagButton_Clicked"/>
+            </Frame>
+            <Frame Grid.Column="2" Style="{StaticResource CardView}" HeightRequest="35">
+                <ImageButton x:Name="AddProhibitedTagButton" Source="minus_icon.png"
+                         WidthRequest="35"
+                         HeightRequest="30" 
+                         BackgroundColor="{StaticResource White}"
+                         CornerRadius="5"
+                         Command="{Binding AddProhibitedTagCommand}"
+                         Clicked="AddTagButton_Clicked"/>
+            </Frame>
+        </Grid>
+        <CollectionView x:Name="TagsHintsCollectionView"
+                        SelectionChanged="TagsHintsCollectionView_SelectionChanged"
+                        Grid.Row="6" 
+                        SelectionMode="Single" 
+                        ItemsSource="{Binding TagsHints}"
+                        BackgroundColor="Transparent" 
+                        MinimumHeightRequest="0" 
+                        MaximumHeightRequest="80">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:Tag">
+                    <VerticalStackLayout Padding="3">
+                        <Label Text="{Binding Name}"></Label>
+                        <Rectangle Fill="{StaticResource Gray1}"
+                            HeightRequest="2"
+                            HorizontalOptions="Center"/>
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup Name="CommonStates">
+                                <VisualState Name="Normal" />
+                                <VisualState Name="Selected">
+                                    <VisualState.Setters>
+                                        <Setter Property="BackgroundColor" Value="{StaticResource Gray2}" />
+                                    </VisualState.Setters>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                    </VerticalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Frame Grid.Row="7" Style="{StaticResource CardView}" MinimumHeightRequest="35">
+            <Grid ColumnDefinitions="*,30" RowDefinitions="Auto, Auto, Auto, Auto, Auto" ColumnSpacing="5">
+                <ImageButton Grid.Column="1"
+                    Source="trashcan_icon.png"
+                         WidthRequest="20"
+                         HeightRequest="23" 
+                         BackgroundColor="{StaticResource White}"
+                         CornerRadius="5"
+                         Command="{Binding ClearAllTabsCommand}"/>
+                <CollectionView x:Name="likedIngredients" Grid.Row="1" ItemsLayout="VerticalGrid, 2" ItemsSource="{Binding Requests.AvailableIngredients}"
+                                BackgroundColor="Transparent"
+                        SelectionMode="None">
                     <CollectionView.ItemTemplate>
-                        <DataTemplate x:DataType="model:Recipe">
-                            <Grid Padding="10">
-                                <Frame HeightRequest="125" Padding="0" Style="{StaticResource CardView}">
-                                    <Grid Padding="0"
-                                  ColumnDefinitions="125,*">
-                                        <Image Aspect="AspectFill"
-                                       Source="{Binding ImageLink}"/>
-                                        <VerticalStackLayout Grid.Column="1"
+                        <DataTemplate x:DataType="model:IngredientView">
+                            <Grid Padding="5">
+                                <Frame Padding="0" 
+                                       BackgroundColor ="{StaticResource Secondary}"
+                                       BorderColor="Transparent">
+                                    <HorizontalStackLayout Spacing="10"
                                                      Padding="10"
                                                      VerticalOptions="Center">
-                                            <Label Text="{Binding Name}"
-                                           Style="{StaticResource MediumLabel}"/>
-                                            <Label Text="{Binding Link}"
-                                           Style="{StaticResource SmallLabel}"/>
-                                        </VerticalStackLayout>
-                                    </Grid>
+                                        <Grid ColumnDefinitions="*, 10" VerticalOptions="Center">
+                                            <Label FontFamily="NunitoSansRegular" WidthRequest="130" HorizontalOptions="Start" Text="{Binding ViewString}" TextColor="{StaticResource Black}" Style="{StaticResource MediumLabel}"/>
+                                            <ImageButton Command="{Binding Path = BindingContext.DeleteIngredientTabCommand, Source={x:Reference likedIngredients}}" CommandParameter="{Binding .}"
+                                                    Grid.Column="1"
+                                                    VerticalOptions="Center"
+                                                    HorizontalOptions="Start"
+                                                    Source="close_icon.png"
+                                                    WidthRequest="18"
+                                                    HeightRequest="18" 
+                                                    BackgroundColor="Transparent"/>
+                                        </Grid>
+                                    </HorizontalStackLayout>
+                                </Frame>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+                <CollectionView x:Name="likedTags" Grid.Row="2" ItemsLayout="VerticalGrid, 2" ItemsSource="{Binding Requests.DesiredTags}"
+                                BackgroundColor="Transparent"
+                        SelectionMode="None">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="model:Tag">
+                            <Grid Padding="5">
+                                <Frame Padding="0" 
+                                       BackgroundColor ="{StaticResource Secondary}"
+                                       BorderColor ="Transparent">
+                                    <HorizontalStackLayout Spacing="10" 
+                                                           Padding="10" 
+                                                           VerticalOptions="Center">
+                                        <Grid ColumnDefinitions="*, 10" VerticalOptions="Center">
+                                            <Label FontFamily="NunitoSansRegular" WidthRequest="130" HorizontalOptions="Start" Text="{Binding Name}" TextColor="{StaticResource Black}" Style="{StaticResource MediumLabel}"/>
+                                            <ImageButton Command="{Binding Path = BindingContext.DeleteTagTabCommand, Source={x:Reference likedTags}}" CommandParameter="{Binding .}"
+                                                    Grid.Column="1"
+                                                    VerticalOptions="Center"
+                                                    HorizontalOptions="Start"
+                                                    Source="close_icon.png"
+                                                    WidthRequest="18"
+                                                    HeightRequest="18" 
+                                                    BackgroundColor="Transparent"/>
+                                        </Grid>
+                                    </HorizontalStackLayout>
+                                </Frame>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+                <CollectionView x:Name="dislikedIngredients" Grid.Row="3" ItemsLayout="VerticalGrid, 2" ItemsSource="{Binding Requests.ProhibitedIngredients}"
+                                BackgroundColor="Transparent"
+                        SelectionMode="None">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="model:IngredientView">
+                            <Grid Padding="5">
+                                <Frame Padding="0" 
+                                       BackgroundColor ="{StaticResource SecondaryRed}"
+                                       BorderColor="Transparent">
+                                    <HorizontalStackLayout Spacing="10" Padding="10"
+                                                     VerticalOptions="Center">
+                                        <Grid ColumnDefinitions="*, 10" VerticalOptions="Center">
+                                            <Label FontFamily="NunitoSansRegular" WidthRequest="130" HorizontalOptions="Start" Text="{Binding ViewString}" TextColor="{StaticResource Black}" Style="{StaticResource MediumLabel}"/>
+                                            <ImageButton Command="{Binding Path = BindingContext.DeleteProhibitedIngredientTabCommand, Source={x:Reference dislikedIngredients}}" CommandParameter="{Binding .}"
+                                                    Grid.Column="1"
+                                                    VerticalOptions="Center"
+                                                    HorizontalOptions="Start"
+                                                    Source="close_icon.png"
+                                                    WidthRequest="18"
+                                                    HeightRequest="18" 
+                                                    BackgroundColor="Transparent"/>
+                                        </Grid>
+                                    </HorizontalStackLayout>
+                                </Frame>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+                <CollectionView x:Name="dislikedTags" Grid.Row="4" ItemsLayout="VerticalGrid, 2" ItemsSource="{Binding Requests.ProhibitedTags}"
+                                BackgroundColor="Transparent"
+                        SelectionMode="None">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="model:Tag">
+                            <Grid Padding="5">
+                                <Frame Padding="0" 
+                                       BackgroundColor ="{StaticResource SecondaryRed}"
+                                       BorderColor="Transparent">
+                                    <HorizontalStackLayout Spacing="10" 
+                                                           Padding="10" 
+                                                           VerticalOptions="Center">
+                                        <Grid ColumnDefinitions="*, 10" VerticalOptions="Center">
+                                            <Label FontFamily="NunitoSansRegular" WidthRequest="130" HorizontalOptions="Start" Text="{Binding Name}" TextColor="{StaticResource Black}" Style="{StaticResource MediumLabel}"/>
+                                            <ImageButton Command="{Binding Path = BindingContext.DeleteProhibitedTagTabCommand, Source={x:Reference dislikedTags}}" CommandParameter="{Binding .}"
+                                                    Grid.Column="1"
+                                                    VerticalOptions="Center"
+                                                    HorizontalOptions="Start"
+                                                    Source="close_icon.png"
+                                                    WidthRequest="18"
+                                                    HeightRequest="18" 
+                                                    BackgroundColor="Transparent"/>
+                                        </Grid>
+                                    </HorizontalStackLayout>
                                 </Frame>
                             </Grid>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
                 </CollectionView>
             </Grid>
-        </Frame>-->
+        </Frame>
+        <Button FontFamily="NunitoSansRegular" 
+                FontSize="20" 
+                HeightRequest="50" 
+                Text ="Искать" 
+                Grid.Row="8" 
+                Style="{StaticResource ButtonOutline}"
+                Command="{Binding SearchCommand}"/>
         <CollectionView BackgroundColor="Transparent"
                         ItemsSource="{Binding Recipes}"
                         SelectionMode="None"
-                        Grid.Row="1">
+                        Grid.Row="9">
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="model:Recipe">
                     <Grid Padding="3">
@@ -103,8 +352,12 @@
                             </Frame.GestureRecognizers>
                             <Grid Padding="0"
                                   ColumnDefinitions="125,*">
-                                <Image Aspect="AspectFill"
-                                       Source="{Binding ImageLink}"/>
+                                <Image Aspect="AspectFill">
+                                    <Image.Source>
+                                        <UriImageSource Uri="{Binding ImageLink}"
+                                                        CachingEnabled="False"/>
+                                    </Image.Source>
+                                </Image>
                                 <VerticalStackLayout Grid.Column="1"
                                                      Padding="5"
                                                      VerticalOptions="Center">
@@ -133,7 +386,7 @@
                            Color="{StaticResource Primary}"
                            HorizontalOptions="FillAndExpand"
                            VerticalOptions="CenterAndExpand"
-                           Grid.Row="1"
+                           Grid.Row="9"
                            Grid.RowSpan="2"
                            Grid.ColumnSpan="2"/>
     </Grid>

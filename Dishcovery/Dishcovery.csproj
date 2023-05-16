@@ -54,9 +54,18 @@
 		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
+  
+	<ItemGroup>
+	  <Compile Remove="Resources\DataBase\**" />
+	  <EmbeddedResource Remove="Resources\DataBase\**" />
+	  <MauiCss Remove="Resources\DataBase\**" />
+	  <MauiXaml Remove="Resources\DataBase\**" />
+	  <None Remove="Resources\DataBase\**" />
+	</ItemGroup>
 
 	<ItemGroup>
 	  <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.0" />
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -79,5 +88,7 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
+
+	<ProjectExtensions><VisualStudio><UserProperties XamarinHotReloadDebuggerTimeoutExceptionDishcoveryHideInfoBar="True" /></VisualStudio></ProjectExtensions>
 
 </Project>

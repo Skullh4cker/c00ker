@@ -9,6 +9,7 @@ public class Recipe
     public int ServingsNumber { get; set; }
     public int Calories { get; set; }
     public Time CookingTime { get; set; }
+    public List<string> Tags { get; set; }
     public List<Ingredient> Ingredients { get; set; }
     public Recipe(string link, string name, string imagelink, int rating, int servingsNumber, int calories, Time cookingTime, List<Ingredient> ingredients)
     {
@@ -19,6 +20,7 @@ public class Recipe
         ServingsNumber = servingsNumber;
         Calories = calories;
         CookingTime = cookingTime;
+        Tags = new List<string>();
         Ingredients = ingredients;
     }
 }

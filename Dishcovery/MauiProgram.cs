@@ -1,7 +1,6 @@
 ﻿using Dishcovery.Controls;
 using Microsoft.Maui.LifecycleEvents;
 using Microsoft.Maui.Platform;
-
 namespace Dishcovery;
 
 public static class MauiProgram

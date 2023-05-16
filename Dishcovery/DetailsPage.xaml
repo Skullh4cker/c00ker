@@ -15,7 +15,8 @@
             <Label FontFamily="NunitoSansRegular" Text="{Binding Recipe.Calories, StringFormat='Калории: {0}'}"/>
             <Label FontFamily="NunitoSansRegular">
                 <Label.Text>
-                    <MultiBinding StringFormat="Время приготовления: {0}:{1}">
+                    <MultiBinding StringFormat="Время приготовления: {0}:{1}:{2}">
+                        <Binding Path="Recipe.CookingTime.Days" />
                         <Binding Path="Recipe.CookingTime.Hours" />
                         <Binding Path="Recipe.CookingTime.Minutes" />
                     </MultiBinding>
@@ -32,8 +33,8 @@
                         <Label.Text>
                             <MultiBinding StringFormat="- {0} ({1} {2})">
                                 <Binding Path="Name" />
+                                <Binding Path="Quantity" />
                                 <Binding Path="Measurement" />
-                                <Binding Path="Type" />
                             </MultiBinding>
                         </Label.Text>
                     </Label>

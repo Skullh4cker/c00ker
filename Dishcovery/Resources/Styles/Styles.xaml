@@ -174,9 +174,9 @@
 
 
     <Style x:Key="ButtonOutline" TargetType="Button">
-        <Setter Property="Background" Value="{StaticResource Primary}"/>
-        <Setter Property="TextColor" Value="{StaticResource White}"/>
-        <Setter Property="BorderColor" Value="{StaticResource Secondary}"/>
+        <Setter Property="Background" Value="{StaticResource WhiteGray}"/>
+        <Setter Property="TextColor" Value="{StaticResource Primary}"/>
+        <Setter Property="BorderColor" Value="{StaticResource Primary}"/>
         <Setter Property="BorderWidth" Value="2"/>
         <Setter Property="HeightRequest" Value="40"/>
         <Setter Property="CornerRadius" Value="20"/>

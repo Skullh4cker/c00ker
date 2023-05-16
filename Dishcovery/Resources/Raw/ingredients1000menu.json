@@ -1,0 +1,6452 @@
+[
+  {
+    "Name": "Сушки простые",
+    "ID": 29,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Тесто дрожжевое",
+    "ID": 32,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Крахмал",
+    "ID": 33,
+    "GramsInPce": 0,
+    "GramsInCup": 130
+  },
+  {
+    "Name": "Мюсли",
+    "ID": 52,
+    "GramsInPce": 0,
+    "GramsInCup": 100
+  },
+  {
+    "Name": "Кукурузная мука",
+    "ID": 62,
+    "GramsInPce": 0,
+    "GramsInCup": 140
+  },
+  {
+    "Name": "Сахарная кукуруза консервированная",
+    "ID": 70,
+    "GramsInPce": 240,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Крупа манная",
+    "ID": 80,
+    "GramsInPce": 0,
+    "GramsInCup": 140
+  },
+  {
+    "Name": "Крупа овсяная",
+    "ID": 81,
+    "GramsInPce": 0,
+    "GramsInCup": 170
+  },
+  {
+    "Name": "Овсяные хлопья",
+    "ID": 82,
+    "GramsInPce": 0,
+    "GramsInCup": 100
+  },
+  {
+    "Name": "Геркулес сырой",
+    "ID": 83,
+    "GramsInPce": 0,
+    "GramsInCup": 100
+  },
+  {
+    "Name": "Крупа перловая",
+    "ID": 85,
+    "GramsInPce": 0,
+    "GramsInCup": 230
+  },
+  {
+    "Name": "Крупа пшенная",
+    "ID": 86,
+    "GramsInPce": 0,
+    "GramsInCup": 220
+  },
+  {
+    "Name": "Крупа ячневая",
+    "ID": 88,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Фасоль",
+    "ID": 96,
+    "GramsInPce": 0,
+    "GramsInCup": 220
+  },
+  {
+    "Name": "Зеленый горох свежий",
+    "ID": 100,
+    "GramsInPce": 0,
+    "GramsInCup": 220
+  },
+  {
+    "Name": "Дробленый горох сырой без семенного покрытия",
+    "ID": 102,
+    "GramsInPce": 0,
+    "GramsInCup": 230
+  },
+  {
+    "Name": "Тофу",
+    "ID": 114,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Картофель зрелый",
+    "ID": 127,
+    "GramsInPce": 150,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Морковь",
+    "ID": 129,
+    "GramsInPce": 80,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Помидоры",
+    "ID": 131,
+    "GramsInPce": 100,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Огурцы свежие",
+    "ID": 132,
+    "GramsInPce": 100,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Лук репчатый",
+    "ID": 133,
+    "GramsInPce": 140,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Лук зеленый",
+    "ID": 134,
+    "GramsInPce": 60,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Лук порей",
+    "ID": 135,
+    "GramsInPce": 200,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Чеснок",
+    "ID": 136,
+    "GramsInPce": 5,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Капуста белокочанная",
+    "ID": 137,
+    "GramsInPce": 1300,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Брокколи",
+    "ID": 139,
+    "GramsInPce": 300,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Китайская капуста",
+    "ID": 140,
+    "GramsInPce": 400,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Зеленая капуста",
+    "ID": 141,
+    "GramsInPce": 1500,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Савойская капуста",
+    "ID": 142,
+    "GramsInPce": 1700,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Кольраби",
+    "ID": 143,
+    "GramsInPce": 120,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Брюссельская капуста",
+    "ID": 144,
+    "GramsInPce": 300,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Краснокочанная капуста",
+    "ID": 146,
+    "GramsInPce": 1300,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Цветная капуста",
+    "ID": 147,
+    "GramsInPce": 1200,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Баклажаны",
+    "ID": 148,
+    "GramsInPce": 200,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Кабачки",
+    "ID": 149,
+    "GramsInPce": 300,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Цуккини",
+    "ID": 150,
+    "GramsInPce": 220,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Тыква",
+    "ID": 151,
+    "GramsInPce": 5000,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Перец сладкий",
+    "ID": 152,
+    "GramsInPce": 100,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Редис",
+    "ID": 153,
+    "GramsInPce": 20,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Репа",
+    "ID": 154,
+    "GramsInPce": 120,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Редька",
+    "ID": 155,
+    "GramsInPce": 300,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Брюква",
+    "ID": 156,
+    "GramsInPce": 1500,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Салат листовой",
+    "ID": 158,
+    "GramsInPce": 5,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Фасоль стручковая",
+    "ID": 160,
+    "GramsInPce": 10,
+    "GramsInCup": 220
+  },
+  {
+    "Name": "Шпинат",
+    "ID": 161,
+    "GramsInPce": 6,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Щавель",
+    "ID": 162,
+    "GramsInPce": 8,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Артишоки",
+    "ID": 163,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сельдерей",
+    "ID": 165,
+    "GramsInPce": 20,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Цикорий",
+    "ID": 167,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Фенхель",
+    "ID": 168,
+    "GramsInPce": 200,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Маслины",
+    "ID": 169,
+    "GramsInPce": 7,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Ревень",
+    "ID": 170,
+    "GramsInPce": 500,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Спаржа",
+    "ID": 171,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Корень петрушки",
+    "ID": 172,
+    "GramsInPce": 5,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Зелень петрушки",
+    "ID": 173,
+    "GramsInPce": 2,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Зелень укропа",
+    "ID": 174,
+    "GramsInPce": 50,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Хрен",
+    "ID": 175,
+    "GramsInPce": 8,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сушеный лук репчатый",
+    "ID": 180,
+    "GramsInPce": 0,
+    "GramsInCup": 150
+  },
+  {
+    "Name": "Шампиньоны",
+    "ID": 183,
+    "GramsInPce": 20,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Маслята",
+    "ID": 184,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Белые грибы свежие",
+    "ID": 185,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Белые грибы сушеные",
+    "ID": 186,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Подберезовики, моховики",
+    "ID": 187,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Лисички",
+    "ID": 188,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Опята",
+    "ID": 189,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Подосиновики",
+    "ID": 190,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сыроежки",
+    "ID": 191,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Абрикосы",
+    "ID": 192,
+    "GramsInPce": 40,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Персики",
+    "ID": 193,
+    "GramsInPce": 170,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Айва",
+    "ID": 195,
+    "GramsInPce": 130,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Алыча",
+    "ID": 196,
+    "GramsInPce": 15,
+    "GramsInCup": 150
+  },
+  {
+    "Name": "Арбуз",
+    "ID": 197,
+    "GramsInPce": 5000,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Дыня «колхозница»",
+    "ID": 199,
+    "GramsInPce": 3000,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Апельсины",
+    "ID": 200,
+    "GramsInPce": 150,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Грейпфрут",
+    "ID": 201,
+    "GramsInPce": 300,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Лимон",
+    "ID": 202,
+    "GramsInPce": 120,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Мандарины",
+    "ID": 203,
+    "GramsInPce": 130,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Бананы",
+    "ID": 204,
+    "GramsInPce": 160,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Ананасы",
+    "ID": 205,
+    "GramsInPce": 1400,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Авокадо",
+    "ID": 206,
+    "GramsInPce": 160,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Киви",
+    "ID": 207,
+    "GramsInPce": 80,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Манго",
+    "ID": 208,
+    "GramsInPce": 300,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Маракуйя",
+    "ID": 209,
+    "GramsInPce": 40,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Гранат",
+    "ID": 210,
+    "GramsInPce": 350,
+    "GramsInCup": 210
+  },
+  {
+    "Name": "Хурма",
+    "ID": 211,
+    "GramsInPce": 230,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Яблоки",
+    "ID": 212,
+    "GramsInPce": 140,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Груша",
+    "ID": 213,
+    "GramsInPce": 120,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Вишня сладкая",
+    "ID": 215,
+    "GramsInPce": 5,
+    "GramsInCup": 165
+  },
+  {
+    "Name": "Черешня",
+    "ID": 216,
+    "GramsInPce": 14,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Рябина обыкновенная",
+    "ID": 218,
+    "GramsInPce": 0,
+    "GramsInCup": 160
+  },
+  {
+    "Name": "Слива",
+    "ID": 219,
+    "GramsInPce": 25,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Терн",
+    "ID": 221,
+    "GramsInPce": 0,
+    "GramsInCup": 150
+  },
+  {
+    "Name": "Виноград",
+    "ID": 222,
+    "GramsInPce": 3,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Крыжовник",
+    "ID": 223,
+    "GramsInPce": 0,
+    "GramsInCup": 210
+  },
+  {
+    "Name": "Земляника садовая",
+    "ID": 224,
+    "GramsInPce": 0,
+    "GramsInCup": 150
+  },
+  {
+    "Name": "Клубника",
+    "ID": 225,
+    "GramsInPce": 17,
+    "GramsInCup": 160
+  },
+  {
+    "Name": "Малина",
+    "ID": 226,
+    "GramsInPce": 3,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Ежевика",
+    "ID": 227,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Облепиха",
+    "ID": 228,
+    "GramsInPce": 0,
+    "GramsInCup": 160
+  },
+  {
+    "Name": "Смородина красная",
+    "ID": 229,
+    "GramsInPce": 0.5,
+    "GramsInCup": 175
+  },
+  {
+    "Name": "Смородина черная",
+    "ID": 230,
+    "GramsInPce": 0.5,
+    "GramsInCup": 155
+  },
+  {
+    "Name": "Смородина белая",
+    "ID": 232,
+    "GramsInPce": 0.5,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Шиповник сухой",
+    "ID": 234,
+    "GramsInPce": 0,
+    "GramsInCup": 150
+  },
+  {
+    "Name": "Кизил",
+    "ID": 235,
+    "GramsInPce": 4,
+    "GramsInCup": 150
+  },
+  {
+    "Name": "Брусника",
+    "ID": 236,
+    "GramsInPce": 0,
+    "GramsInCup": 140
+  },
+  {
+    "Name": "Клюква",
+    "ID": 237,
+    "GramsInPce": 2,
+    "GramsInCup": 160
+  },
+  {
+    "Name": "Черника",
+    "ID": 238,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Голубика",
+    "ID": 239,
+    "GramsInPce": 0,
+    "GramsInCup": 160
+  },
+  {
+    "Name": "Морошка",
+    "ID": 240,
+    "GramsInPce": 0,
+    "GramsInCup": 160
+  },
+  {
+    "Name": "Шелковица",
+    "ID": 241,
+    "GramsInPce": 0,
+    "GramsInCup": 150
+  },
+  {
+    "Name": "Черемша",
+    "ID": 242,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Изюм",
+    "ID": 244,
+    "GramsInPce": 0,
+    "GramsInCup": 165
+  },
+  {
+    "Name": "Кишмиш",
+    "ID": 245,
+    "GramsInPce": 0,
+    "GramsInCup": 165
+  },
+  {
+    "Name": "Курага",
+    "ID": 246,
+    "GramsInPce": 20,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Инжир",
+    "ID": 248,
+    "GramsInPce": 40,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Финики",
+    "ID": 249,
+    "GramsInPce": 15,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Чернослив",
+    "ID": 250,
+    "GramsInPce": 8,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Миндаль орехи",
+    "ID": 254,
+    "GramsInPce": 2,
+    "GramsInCup": 160
+  },
+  {
+    "Name": "Бразильские орехи",
+    "ID": 256,
+    "GramsInPce": 0,
+    "GramsInCup": 220
+  },
+  {
+    "Name": "Кешью",
+    "ID": 258,
+    "GramsInPce": 0,
+    "GramsInCup": 100
+  },
+  {
+    "Name": "Фисташки",
+    "ID": 266,
+    "GramsInPce": 0,
+    "GramsInCup": 160
+  },
+  {
+    "Name": "Фундук орехи",
+    "ID": 267,
+    "GramsInPce": 0,
+    "GramsInCup": 170
+  },
+  {
+    "Name": "Орехи грецкие",
+    "ID": 268,
+    "GramsInPce": 5,
+    "GramsInCup": 100
+  },
+  {
+    "Name": "Орехи кедровые",
+    "ID": 271,
+    "GramsInPce": 0,
+    "GramsInCup": 140
+  },
+  {
+    "Name": "Кунжутное семя лущеное",
+    "ID": 276,
+    "GramsInPce": 0,
+    "GramsInCup": 130
+  },
+  {
+    "Name": "Молоко коровье цельное",
+    "ID": 278,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Молоко 3,2% жирности",
+    "ID": 280,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Молоко 1,5% жирности",
+    "ID": 281,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Молоко сгущенное с сахаром",
+    "ID": 285,
+    "GramsInPce": 380,
+    "GramsInCup": 300
+  },
+  {
+    "Name": "Сливки 10%-ной жирности",
+    "ID": 287,
+    "GramsInPce": 0,
+    "GramsInCup": 220
+  },
+  {
+    "Name": "Кефир 1%-ной жирности",
+    "ID": 289,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Кефир обезжиренный",
+    "ID": 290,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Ряженка",
+    "ID": 292,
+    "GramsInPce": 0,
+    "GramsInCup": 250
+  },
+  {
+    "Name": "Сметана 30 % - ной жирности",
+    "ID": 293,
+    "GramsInPce": 0,
+    "GramsInCup": 250
+  },
+  {
+    "Name": "Сметана 20 % - ной жирности",
+    "ID": 295,
+    "GramsInPce": 0,
+    "GramsInCup": 250
+  },
+  {
+    "Name": "Сметана 10 % - ной жирности",
+    "ID": 296,
+    "GramsInPce": 0,
+    "GramsInCup": 250
+  },
+  {
+    "Name": "Творог 20%-ной жирности",
+    "ID": 298,
+    "GramsInPce": 0,
+    "GramsInCup": 250
+  },
+  {
+    "Name": "Творог 18%-ной жирности",
+    "ID": 299,
+    "GramsInPce": 0,
+    "GramsInCup": 250
+  },
+  {
+    "Name": "Творог 10%-ной жирности",
+    "ID": 300,
+    "GramsInPce": 0,
+    "GramsInCup": 250
+  },
+  {
+    "Name": "Творог обезжиренный",
+    "ID": 301,
+    "GramsInPce": 0,
+    "GramsInCup": 250
+  },
+  {
+    "Name": "Сырки творожные",
+    "ID": 306,
+    "GramsInPce": 100,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Брынза из коровьего молока",
+    "ID": 307,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "«актимель» натуральный",
+    "ID": 312,
+    "GramsInPce": 0,
+    "GramsInCup": 250
+  },
+  {
+    "Name": "Мороженое пломбир",
+    "ID": 318,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сыр «голландский»",
+    "ID": 326,
+    "GramsInPce": 0,
+    "GramsInCup": 120
+  },
+  {
+    "Name": "Сыр «российский»",
+    "ID": 328,
+    "GramsInPce": 0,
+    "GramsInCup": 120
+  },
+  {
+    "Name": "Сыр «рокфор»",
+    "ID": 336,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сыр «чеддер»",
+    "ID": 338,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сливочный сыр 50%-ной жирности",
+    "ID": 340,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сыр «камамбер» 50 % - ной жирности",
+    "ID": 341,
+    "GramsInPce": 250,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Плавленый сыр 45 % - ной жирности",
+    "ID": 344,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сыр «гауда» 45 % - ной жирности",
+    "ID": 348,
+    "GramsInPce": 0,
+    "GramsInCup": 120
+  },
+  {
+    "Name": "Пармезан сыр 45% жирности",
+    "ID": 349,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сыр «рам бри»",
+    "ID": 355,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сыр желтый жирный",
+    "ID": 364,
+    "GramsInPce": 0,
+    "GramsInCup": 120
+  },
+  {
+    "Name": "Сыр колбасный",
+    "ID": 365,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Жир кулинарный",
+    "ID": 370,
+    "GramsInPce": 0,
+    "GramsInCup": 230
+  },
+  {
+    "Name": "Смалец",
+    "ID": 373,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Масло сливочное 82%",
+    "ID": 383,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Масло крестьянское несоленое",
+    "ID": 385,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Масло растительное",
+    "ID": 388,
+    "GramsInPce": 0,
+    "GramsInCup": 185
+  },
+  {
+    "Name": "Масло арахисовое",
+    "ID": 389,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Масло ореховое",
+    "ID": 390,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Масло подсолнечное",
+    "ID": 393,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Майонез салатный 50 % - ной жирности",
+    "ID": 396,
+    "GramsInPce": 0,
+    "GramsInCup": 250
+  },
+  {
+    "Name": "Майонез легкий",
+    "ID": 397,
+    "GramsInPce": 0,
+    "GramsInCup": 250
+  },
+  {
+    "Name": "Кокосовое масло",
+    "ID": 402,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Говядина постная",
+    "ID": 404,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Свинина жирная",
+    "ID": 405,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Свинина мясная",
+    "ID": 406,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Баранина постная",
+    "ID": 407,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Телятина - грудинка",
+    "ID": 409,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Баранина - грудинка",
+    "ID": 416,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Говядина - нежирное жаркое",
+    "ID": 423,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Говядина - филе (стейк)",
+    "ID": 425,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Говяжий фарш",
+    "ID": 429,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Свинина - филе",
+    "ID": 432,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Свинина - ножка",
+    "ID": 433,
+    "GramsInPce": 400,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Окорок свиной",
+    "ID": 435,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Крольчатина (нарезка)",
+    "ID": 439,
+    "GramsInPce": 3000,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Мясо зайца",
+    "ID": 440,
+    "GramsInPce": 3000,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Олений окорок",
+    "ID": 441,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Окорок косули",
+    "ID": 442,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Конина (нарезка)",
+    "ID": 444,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Печень говяжья",
+    "ID": 445,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Печень свиная",
+    "ID": 446,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Почки бараньи",
+    "ID": 449,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Почки говяжьи",
+    "ID": 450,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Почки свиные",
+    "ID": 451,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сердце говяжье",
+    "ID": 453,
+    "GramsInPce": 1500,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сердце свиное",
+    "ID": 454,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Легкие",
+    "ID": 457,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Вымя коровье",
+    "ID": 458,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Язык говяжий",
+    "ID": 461,
+    "GramsInPce": 1300,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Ветчина",
+    "ID": 463,
+    "GramsInPce": 20,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Колбаса с жиром",
+    "ID": 464,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Колбаса «докторская»",
+    "ID": 469,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сардельки говяжьи",
+    "ID": 474,
+    "GramsInPce": 200,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сосиски «молочные»",
+    "ID": 475,
+    "GramsInPce": 50,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Кровяная колбаса",
+    "ID": 479,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сервелат",
+    "ID": 481,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Копченая колбаса",
+    "ID": 482,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Печеночный паштет",
+    "ID": 483,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Салями",
+    "ID": 484,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сало",
+    "ID": 485,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Вареная ветчина",
+    "ID": 492,
+    "GramsInPce": 20,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сырокопченая колбаса",
+    "ID": 495,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Корейка сырокопченая",
+    "ID": 497,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Бекон вареный",
+    "ID": 498,
+    "GramsInPce": 20,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Колбаса полукопченая «краковская»",
+    "ID": 502,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Колбаса полукопченая «московская»",
+    "ID": 503,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Лук шалот",
+    "ID": 508,
+    "GramsInPce": 40,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Йогурт 3,5 % - ной жирности ",
+    "ID": 518,
+    "GramsInPce": 0,
+    "GramsInCup": 250
+  },
+  {
+    "Name": "Йогурт натуральный 1,5%-ной жирности ",
+    "ID": 519,
+    "GramsInPce": 0,
+    "GramsInCup": 250
+  },
+  {
+    "Name": "Сыр «фета» ",
+    "ID": 522,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Оливковое масло",
+    "ID": 525,
+    "GramsInPce": 0,
+    "GramsInCup": 170
+  },
+  {
+    "Name": "Анчоусы атлантические, консервированные",
+    "ID": 528,
+    "GramsInPce": 18,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Белуга свежая",
+    "ID": 530,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Горбуша свежая",
+    "ID": 533,
+    "GramsInPce": 2200,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Икра лососевая зернистая",
+    "ID": 539,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Икра осетровая паюсная",
+    "ID": 542,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Кальмары отварные",
+    "ID": 549,
+    "GramsInPce": 100,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Кальмары свежие",
+    "ID": 550,
+    "GramsInPce": 100,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Камбала свежая",
+    "ID": 553,
+    "GramsInPce": 500,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Карась свежий",
+    "ID": 555,
+    "GramsInPce": 250,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Карп свежий",
+    "ID": 558,
+    "GramsInPce": 1000,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Кета свежая",
+    "ID": 559,
+    "GramsInPce": 2500,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Кефаль свежая",
+    "ID": 562,
+    "GramsInPce": 600,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Килька балтийская",
+    "ID": 563,
+    "GramsInPce": 30,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Крабовое мясо",
+    "ID": 568,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Крабовые палочки",
+    "ID": 571,
+    "GramsInPce": 18,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Крабы консервированные",
+    "ID": 576,
+    "GramsInPce": 2000,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Креветки очищенные замороженные",
+    "ID": 580,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Креветки свежие",
+    "ID": 581,
+    "GramsInPce": 18,
+    "GramsInCup": 130
+  },
+  {
+    "Name": "Лангуст (мясо шеек)",
+    "ID": 582,
+    "GramsInPce": 400,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Лещ свежий",
+    "ID": 586,
+    "GramsInPce": 600,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Лосось свежий",
+    "ID": 591,
+    "GramsInPce": 3000,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Макрель",
+    "ID": 594,
+    "GramsInPce": 1500,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Мидии отварные",
+    "ID": 596,
+    "GramsInPce": 30,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Минтай свежий",
+    "ID": 598,
+    "GramsInPce": 1200,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Морская капуста",
+    "ID": 599,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Налим свежий",
+    "ID": 601,
+    "GramsInPce": 1500,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Окунь морской свежий",
+    "ID": 604,
+    "GramsInPce": 400,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Осётр свежий",
+    "ID": 614,
+    "GramsInPce": 13000,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Палтус свежий",
+    "ID": 616,
+    "GramsInPce": 3000,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сазан азовский",
+    "ID": 617,
+    "GramsInPce": 3500,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сайра бланшированная в масле",
+    "ID": 619,
+    "GramsInPce": 240,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сайра свежая",
+    "ID": 620,
+    "GramsInPce": 145,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сардина свежая",
+    "ID": 625,
+    "GramsInPce": 1200,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сельдь свежая",
+    "ID": 631,
+    "GramsInPce": 300,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сёмга свежая",
+    "ID": 635,
+    "GramsInPce": 5000,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Скумбрия свежая",
+    "ID": 639,
+    "GramsInPce": 250,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сом свежий",
+    "ID": 642,
+    "GramsInPce": 3000,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Стерлядь свежая",
+    "ID": 643,
+    "GramsInPce": 1500,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Судак свежий",
+    "ID": 646,
+    "GramsInPce": 800,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Печень трески в масле",
+    "ID": 648,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Треска свежая",
+    "ID": 655,
+    "GramsInPce": 10000,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Тунец свежий",
+    "ID": 660,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Угорь свежий",
+    "ID": 663,
+    "GramsInPce": 600,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Форель",
+    "ID": 666,
+    "GramsInPce": 500,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Хек свежий",
+    "ID": 672,
+    "GramsInPce": 600,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Шпроты",
+    "ID": 673,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Щука свежая",
+    "ID": 677,
+    "GramsInPce": 1500,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Морской язык",
+    "ID": 679,
+    "GramsInPce": 3000,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Яйцо куриное",
+    "ID": 680,
+    "GramsInPce": 60,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Яйцо перепелиное",
+    "ID": 685,
+    "GramsInPce": 10,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Гусь i категории",
+    "ID": 686,
+    "GramsInPce": 5000,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Индейка тушка без кожи",
+    "ID": 688,
+    "GramsInPce": 6500,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Куриная грудка (филе)",
+    "ID": 690,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Куриный окорочок",
+    "ID": 691,
+    "GramsInPce": 450,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Курица i категории",
+    "ID": 692,
+    "GramsInPce": 1500,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Курица, мякоть без кожи",
+    "ID": 694,
+    "GramsInPce": 1500,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Перепелка",
+    "ID": 696,
+    "GramsInPce": 125,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Рябчик",
+    "ID": 697,
+    "GramsInPce": 450,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Печень индейки",
+    "ID": 699,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Печень куриная",
+    "ID": 700,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Печень утиная",
+    "ID": 701,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сердце куриное",
+    "ID": 702,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Фазан",
+    "ID": 706,
+    "GramsInPce": 1800,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Цыплята",
+    "ID": 707,
+    "GramsInPce": 1500,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Песочное печенье",
+    "ID": 714,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Печенье овсяное",
+    "ID": 716,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Пряники",
+    "ID": 718,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сливочное печенье",
+    "ID": 719,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Слоеное тесто",
+    "ID": 720,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Тесто слоеное, пресное",
+    "ID": 726,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Водка",
+    "ID": 735,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Вермут",
+    "ID": 740,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Виски",
+    "ID": 741,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Сакэ",
+    "ID": 743,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Джин",
+    "ID": 745,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Ром",
+    "ID": 746,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Белое вино",
+    "ID": 751,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Мед",
+    "ID": 752,
+    "GramsInPce": 0,
+    "GramsInCup": 415
+  },
+  {
+    "Name": "Шоколад горький",
+    "ID": 753,
+    "GramsInPce": 100,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Шоколад молочный",
+    "ID": 755,
+    "GramsInPce": 100,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сахар-песок",
+    "ID": 759,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Сахарная пудра",
+    "ID": 761,
+    "GramsInPce": 0,
+    "GramsInCup": 190
+  },
+  {
+    "Name": "Какао-порошок",
+    "ID": 762,
+    "GramsInPce": 0,
+    "GramsInCup": 130
+  },
+  {
+    "Name": "Зефир",
+    "ID": 763,
+    "GramsInPce": 35,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Майонез Провансаль",
+    "ID": 770,
+    "GramsInPce": 0,
+    "GramsInCup": 250
+  },
+  {
+    "Name": "Томатная паста",
+    "ID": 771,
+    "GramsInPce": 0,
+    "GramsInCup": 300
+  },
+  {
+    "Name": "Дрожжи прессованные",
+    "ID": 774,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Кардамон",
+    "ID": 776,
+    "GramsInPce": 2,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Корица",
+    "ID": 777,
+    "GramsInPce": 15,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Лавровый лист",
+    "ID": 778,
+    "GramsInPce": 1,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Майонез «провансаль»",
+    "ID": 779,
+    "GramsInPce": 0,
+    "GramsInCup": 250
+  },
+  {
+    "Name": "Перец молотый красный",
+    "ID": 781,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Перец черный горошек",
+    "ID": 782,
+    "GramsInPce": 1,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Перец черный молотый",
+    "ID": 783,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Соевый соус",
+    "ID": 784,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Соус томатный острый",
+    "ID": 785,
+    "GramsInPce": 0,
+    "GramsInCup": 220
+  },
+  {
+    "Name": "Тмин",
+    "ID": 786,
+    "GramsInPce": 0,
+    "GramsInCup": 150
+  },
+  {
+    "Name": "Уксус 9%",
+    "ID": 787,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Хмели-сунели",
+    "ID": 788,
+    "GramsInPce": 0,
+    "GramsInCup": 150
+  },
+  {
+    "Name": "Шафран",
+    "ID": 789,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Цедра апельсиновая",
+    "ID": 791,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Аджика",
+    "ID": 792,
+    "GramsInPce": 0,
+    "GramsInCup": 240
+  },
+  {
+    "Name": "Сок апельсиновый",
+    "ID": 793,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Сок ананасовый",
+    "ID": 794,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Сок виноградный",
+    "ID": 795,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Сок яблочный",
+    "ID": 796,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Сок томатный",
+    "ID": 797,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Кофе растворимый",
+    "ID": 798,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Желатин",
+    "ID": 800,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Желе",
+    "ID": 801,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Анис",
+    "ID": 802,
+    "GramsInPce": 3,
+    "GramsInCup": 165
+  },
+  {
+    "Name": "Базилик свежий",
+    "ID": 803,
+    "GramsInPce": 5,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Ванилин",
+    "ID": 805,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Гвоздика",
+    "ID": 806,
+    "GramsInPce": 1,
+    "GramsInCup": 160
+  },
+  {
+    "Name": "Зира",
+    "ID": 807,
+    "GramsInPce": 0,
+    "GramsInCup": 160
+  },
+  {
+    "Name": "Имбирь",
+    "ID": 808,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Карри",
+    "ID": 811,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Кетчуп",
+    "ID": 812,
+    "GramsInPce": 0,
+    "GramsInCup": 220
+  },
+  {
+    "Name": "Кокосовая стружка",
+    "ID": 814,
+    "GramsInPce": 0,
+    "GramsInCup": 150
+  },
+  {
+    "Name": "Куркума",
+    "ID": 816,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Крахмал картофельный",
+    "ID": 817,
+    "GramsInPce": 0,
+    "GramsInCup": 160
+  },
+  {
+    "Name": "Крахмал кукурузный",
+    "ID": 818,
+    "GramsInPce": 0,
+    "GramsInCup": 130
+  },
+  {
+    "Name": "Лимонная кислота",
+    "ID": 819,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Майоран",
+    "ID": 820,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Мускатный орех",
+    "ID": 821,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Патока",
+    "ID": 825,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Перец чили",
+    "ID": 826,
+    "GramsInPce": 20,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Разрыхлитель теста",
+    "ID": 827,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Розмарин",
+    "ID": 828,
+    "GramsInPce": 2,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сухари панировочные",
+    "ID": 829,
+    "GramsInPce": 0,
+    "GramsInCup": 130
+  },
+  {
+    "Name": "Тимьян сушеный",
+    "ID": 831,
+    "GramsInPce": 0,
+    "GramsInCup": 150
+  },
+  {
+    "Name": "Ткемали",
+    "ID": 832,
+    "GramsInPce": 0,
+    "GramsInCup": 240
+  },
+  {
+    "Name": "Бренди",
+    "ID": 841,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Текила",
+    "ID": 842,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Херес",
+    "ID": 843,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Водоросли",
+    "ID": 844,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Нори",
+    "ID": 845,
+    "GramsInPce": 2,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Вешенки свежие",
+    "ID": 849,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Грузди свежие",
+    "ID": 851,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Рыжики свежие",
+    "ID": 855,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сморчки свежие",
+    "ID": 856,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Трюфели свежие",
+    "ID": 857,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Дайкон",
+    "ID": 859,
+    "GramsInPce": 400,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Горошек зелёный консервированный",
+    "ID": 860,
+    "GramsInPce": 0,
+    "GramsInCup": 220
+  },
+  {
+    "Name": "Капуста квашеная",
+    "ID": 861,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Оливки",
+    "ID": 862,
+    "GramsInPce": 7,
+    "GramsInCup": 210
+  },
+  {
+    "Name": "Топинамбур",
+    "ID": 863,
+    "GramsInPce": 40,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Ростки бамбука",
+    "ID": 864,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Боярышник",
+    "ID": 865,
+    "GramsInPce": 0,
+    "GramsInCup": 165
+  },
+  {
+    "Name": "Калина",
+    "ID": 866,
+    "GramsInPce": 0,
+    "GramsInCup": 160
+  },
+  {
+    "Name": "Лайм",
+    "ID": 867,
+    "GramsInPce": 100,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Фейхоа",
+    "ID": 868,
+    "GramsInPce": 30,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Цукаты",
+    "ID": 869,
+    "GramsInPce": 0,
+    "GramsInCup": 250
+  },
+  {
+    "Name": "Булгур",
+    "ID": 870,
+    "GramsInPce": 0,
+    "GramsInCup": 150
+  },
+  {
+    "Name": "Вермишель",
+    "ID": 873,
+    "GramsInPce": 0,
+    "GramsInCup": 100
+  },
+  {
+    "Name": "Коржи песочные",
+    "ID": 875,
+    "GramsInPce": 200,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Шалфей",
+    "ID": 876,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Тархун",
+    "ID": 878,
+    "GramsInPce": 5,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Пастернак",
+    "ID": 879,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Васаби",
+    "ID": 882,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Шоколад",
+    "ID": 886,
+    "GramsInPce": 100,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Ячмень",
+    "ID": 887,
+    "GramsInPce": 0,
+    "GramsInCup": 170
+  },
+  {
+    "Name": "Мармелад",
+    "ID": 893,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Печень кролика",
+    "ID": 898,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Блины на раст.масле",
+    "ID": 900,
+    "GramsInPce": 40,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Картофель в мундире",
+    "ID": 906,
+    "GramsInPce": 150,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Рисовая мука",
+    "ID": 908,
+    "GramsInPce": 0,
+    "GramsInCup": 140
+  },
+  {
+    "Name": "Чипсы",
+    "ID": 909,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Вафли",
+    "ID": 910,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Пельмени полуфабрикат",
+    "ID": 911,
+    "GramsInPce": 12,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Белый шоколад",
+    "ID": 912,
+    "GramsInPce": 100,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Мука пшеничная",
+    "ID": 915,
+    "GramsInPce": 0,
+    "GramsInCup": 130
+  },
+  {
+    "Name": "Кускус",
+    "ID": 916,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Батат",
+    "ID": 918,
+    "GramsInPce": 300,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сок грейпфрута",
+    "ID": 919,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Бобы черные",
+    "ID": 920,
+    "GramsInPce": 0,
+    "GramsInCup": 220
+  },
+  {
+    "Name": "Кактус мексиканский",
+    "ID": 921,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Вино десертное",
+    "ID": 922,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Вино красное",
+    "ID": 923,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Квас",
+    "ID": 924,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Морковь отварная",
+    "ID": 926,
+    "GramsInPce": 80,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Куриное яйцо",
+    "ID": 927,
+    "GramsInPce": 45,
+    "GramsInCup": 120
+  },
+  {
+    "Name": "Свекла отварная",
+    "ID": 928,
+    "GramsInPce": 250,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сок вишневый",
+    "ID": 929,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Сок персика",
+    "ID": 930,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Сухофрукты",
+    "ID": 931,
+    "GramsInPce": 0,
+    "GramsInCup": 100
+  },
+  {
+    "Name": "Нут",
+    "ID": 932,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Вареные каштаны",
+    "ID": 933,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Куриная грудка",
+    "ID": 935,
+    "GramsInPce": 200,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Закваска",
+    "ID": 936,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Заварной крем",
+    "ID": 937,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Маринад",
+    "ID": 938,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Мастика",
+    "ID": 939,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Меренги",
+    "ID": 940,
+    "GramsInPce": 2,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Ореховая паста",
+    "ID": 941,
+    "GramsInPce": 0,
+    "GramsInCup": 250
+  },
+  {
+    "Name": "Рассол",
+    "ID": 942,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Вустерский соус",
+    "ID": 943,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Сальса",
+    "ID": 944,
+    "GramsInPce": 0,
+    "GramsInCup": 250
+  },
+  {
+    "Name": "Соус Песто",
+    "ID": 945,
+    "GramsInPce": 0,
+    "GramsInCup": 220
+  },
+  {
+    "Name": "Соус чили",
+    "ID": 946,
+    "GramsInPce": 0,
+    "GramsInCup": 220
+  },
+  {
+    "Name": "Соус табаско",
+    "ID": 947,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Тахини",
+    "ID": 948,
+    "GramsInPce": 0,
+    "GramsInCup": 150
+  },
+  {
+    "Name": "Устричный соус",
+    "ID": 949,
+    "GramsInPce": 0,
+    "GramsInCup": 220
+  },
+  {
+    "Name": "Сухой завтрак",
+    "ID": 950,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Арония",
+    "ID": 951,
+    "GramsInPce": 0,
+    "GramsInCup": 160
+  },
+  {
+    "Name": "Женьшень",
+    "ID": 954,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Зверобой",
+    "ID": 957,
+    "GramsInPce": 0,
+    "GramsInCup": 160
+  },
+  {
+    "Name": "Голяшки говяжьи",
+    "ID": 959,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Лосятина",
+    "ID": 960,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Лягушачьи лапки",
+    "ID": 961,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Свиные уши",
+    "ID": 962,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Субпродукты",
+    "ID": 963,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Кишки свиные",
+    "ID": 965,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Кровь свиная",
+    "ID": 966,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Кости говяжьи",
+    "ID": 967,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Ребрышки свиные",
+    "ID": 968,
+    "GramsInPce": 150,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Кости сахарные",
+    "ID": 969,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Тушенка свиная",
+    "ID": 970,
+    "GramsInPce": 250,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Черепашье мясо",
+    "ID": 971,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Буженина",
+    "ID": 972,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Колбаса ливерная",
+    "ID": 973,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Дичь",
+    "ID": 974,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Филе индейки",
+    "ID": 975,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Куриные желудки",
+    "ID": 976,
+    "GramsInPce": 30,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Куриные крылышки",
+    "ID": 977,
+    "GramsInPce": 40,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Куриные ножки",
+    "ID": 978,
+    "GramsInPce": 200,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Куриный фарш",
+    "ID": 979,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Белки яичные",
+    "ID": 980,
+    "GramsInPce": 34,
+    "GramsInCup": 150
+  },
+  {
+    "Name": "Желтки яичные",
+    "ID": 981,
+    "GramsInPce": 17,
+    "GramsInCup": 140
+  },
+  {
+    "Name": "Акула",
+    "ID": 982,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Вобла вяленая",
+    "ID": 985,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Зубатка",
+    "ID": 986,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Кижуч",
+    "ID": 988,
+    "GramsInPce": 3500,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Корюшка",
+    "ID": 989,
+    "GramsInPce": 50,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Меч-рыба",
+    "ID": 990,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Мойва",
+    "ID": 991,
+    "GramsInPce": 45,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сиг",
+    "ID": 992,
+    "GramsInPce": 800,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Нототения мраморная",
+    "ID": 993,
+    "GramsInPce": 4500,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Пеленгас",
+    "ID": 994,
+    "GramsInPce": 2000,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Пикша",
+    "ID": 995,
+    "GramsInPce": 3000,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Путассу",
+    "ID": 996,
+    "GramsInPce": 300,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Рыбное филе",
+    "ID": 997,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Ряпушка",
+    "ID": 998,
+    "GramsInPce": 700,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Севрюга",
+    "ID": 999,
+    "GramsInPce": 8500,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Тилапия",
+    "ID": 1000,
+    "GramsInPce": 750,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Толстолобик",
+    "ID": 1001,
+    "GramsInPce": 20000,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Моллюски",
+    "ID": 1002,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Морские ушки",
+    "ID": 1003,
+    "GramsInPce": 20,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Каракатица",
+    "ID": 1004,
+    "GramsInPce": 1500,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Виноградные улитки",
+    "ID": 1005,
+    "GramsInPce": 30,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Морской гребешок",
+    "ID": 1006,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Омар",
+    "ID": 1007,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Осьминог",
+    "ID": 1009,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Волнушки",
+    "ID": 1010,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Горькушки",
+    "ID": 1011,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Маринованные шампиньоны",
+    "ID": 1012,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Шиитаке",
+    "ID": 1013,
+    "GramsInPce": 40,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Копченый сыр",
+    "ID": 1014,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Моцарелла",
+    "ID": 1015,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Маскарпоне сыр",
+    "ID": 1016,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Рикотта",
+    "ID": 1017,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сулугуни",
+    "ID": 1018,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сыр творожный",
+    "ID": 1019,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Кресс-салат",
+    "ID": 1020,
+    "GramsInPce": 250,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Джусай",
+    "ID": 1021,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Шнитт-лук",
+    "ID": 1022,
+    "GramsInPce": 140,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Мангoльд",
+    "ID": 1023,
+    "GramsInPce": 30,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Корнишоны",
+    "ID": 1024,
+    "GramsInPce": 50,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Маринованные огурцы",
+    "ID": 1025,
+    "GramsInPce": 150,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Соленые огурцы",
+    "ID": 1026,
+    "GramsInPce": 150,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Одуванчик",
+    "ID": 1027,
+    "GramsInPce": 8,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Патиссон",
+    "ID": 1028,
+    "GramsInPce": 250,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Помидоры черри",
+    "ID": 1029,
+    "GramsInPce": 18,
+    "GramsInCup": 140
+  },
+  {
+    "Name": "Радиккьо",
+    "ID": 1030,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Руккола",
+    "ID": 1031,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Авелук",
+    "ID": 1032,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Эндивий",
+    "ID": 1033,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Эскарол",
+    "ID": 1034,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Арбузные корки",
+    "ID": 1035,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сакура",
+    "ID": 1036,
+    "GramsInPce": 0,
+    "GramsInCup": 150
+  },
+  {
+    "Name": "Дуриан",
+    "ID": 1037,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Карамбола",
+    "ID": 1038,
+    "GramsInPce": 50,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Кумкват",
+    "ID": 1039,
+    "GramsInPce": 25,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Личи",
+    "ID": 1040,
+    "GramsInPce": 10,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Мандариновая кожура",
+    "ID": 1041,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Нектарин",
+    "ID": 1042,
+    "GramsInPce": 70,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Помело",
+    "ID": 1043,
+    "GramsInPce": 100,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Папайя",
+    "ID": 1044,
+    "GramsInPce": 400,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Ранетки",
+    "ID": 1045,
+    "GramsInPce": 20,
+    "GramsInCup": 150
+  },
+  {
+    "Name": "Яблочное пюре",
+    "ID": 1046,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Бузина",
+    "ID": 1047,
+    "GramsInPce": 0,
+    "GramsInCup": 165
+  },
+  {
+    "Name": "Жимолость",
+    "ID": 1048,
+    "GramsInPce": 0,
+    "GramsInCup": 160
+  },
+  {
+    "Name": "Ирга",
+    "ID": 1049,
+    "GramsInPce": 0,
+    "GramsInCup": 160
+  },
+  {
+    "Name": "Смородина",
+    "ID": 1058,
+    "GramsInPce": 0.5,
+    "GramsInCup": 155
+  },
+  {
+    "Name": "Физалис",
+    "ID": 1060,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Черемуха",
+    "ID": 1061,
+    "GramsInPce": 0,
+    "GramsInCup": 170
+  },
+  {
+    "Name": "Кора дуба",
+    "ID": 1064,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Смесь сухофруктов",
+    "ID": 1065,
+    "GramsInPce": 0,
+    "GramsInCup": 100
+  },
+  {
+    "Name": "Апельсиновая кожура",
+    "ID": 1066,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Лимонная кожура",
+    "ID": 1067,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Кора берёзы",
+    "ID": 1069,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сухое молоко",
+    "ID": 1070,
+    "GramsInPce": 0,
+    "GramsInCup": 120
+  },
+  {
+    "Name": "Соевое молоко",
+    "ID": 1071,
+    "GramsInPce": 0,
+    "GramsInCup": 170
+  },
+  {
+    "Name": "Концентрированное молоко",
+    "ID": 1074,
+    "GramsInPce": 0,
+    "GramsInCup": 204
+  },
+  {
+    "Name": "Простокваша",
+    "ID": 1078,
+    "GramsInPce": 0,
+    "GramsInCup": 250
+  },
+  {
+    "Name": "Сливки",
+    "ID": 1079,
+    "GramsInPce": 0,
+    "GramsInCup": 220
+  },
+  {
+    "Name": "Взбитые сливки",
+    "ID": 1080,
+    "GramsInPce": 0,
+    "GramsInCup": 250
+  },
+  {
+    "Name": "Обезжиренные сливки",
+    "ID": 1083,
+    "GramsInPce": 0,
+    "GramsInCup": 250
+  },
+  {
+    "Name": "Сливки 35%",
+    "ID": 1084,
+    "GramsInPce": 0,
+    "GramsInCup": 250
+  },
+  {
+    "Name": "Сметана",
+    "ID": 1085,
+    "GramsInPce": 0,
+    "GramsInCup": 250
+  },
+  {
+    "Name": "Сыворотка",
+    "ID": 1086,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Творог",
+    "ID": 1088,
+    "GramsInPce": 0,
+    "GramsInCup": 250
+  },
+  {
+    "Name": "Гречка",
+    "ID": 1089,
+    "GramsInPce": 0,
+    "GramsInCup": 190
+  },
+  {
+    "Name": "Кукуруза",
+    "ID": 1090,
+    "GramsInPce": 200,
+    "GramsInCup": 100
+  },
+  {
+    "Name": "Кукурузная крупа",
+    "ID": 1092,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Мак",
+    "ID": 1093,
+    "GramsInPce": 0,
+    "GramsInCup": 155
+  },
+  {
+    "Name": "Овес",
+    "ID": 1094,
+    "GramsInPce": 0,
+    "GramsInCup": 170
+  },
+  {
+    "Name": "Отруби",
+    "ID": 1098,
+    "GramsInPce": 0,
+    "GramsInCup": 55
+  },
+  {
+    "Name": "Пшеничная крупа",
+    "ID": 1099,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Ржаная крупа",
+    "ID": 1100,
+    "GramsInPce": 0,
+    "GramsInCup": 160
+  },
+  {
+    "Name": "Рис",
+    "ID": 1101,
+    "GramsInPce": 0,
+    "GramsInCup": 230
+  },
+  {
+    "Name": "Фарро",
+    "ID": 1102,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Бисквитное тесто",
+    "ID": 1104,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Кислое тесто",
+    "ID": 1106,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Коржи",
+    "ID": 1107,
+    "GramsInPce": 200,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Ржаная мука",
+    "ID": 1108,
+    "GramsInPce": 0,
+    "GramsInCup": 130
+  },
+  {
+    "Name": "Овсяная мука",
+    "ID": 1109,
+    "GramsInPce": 0,
+    "GramsInCup": 140
+  },
+  {
+    "Name": "Миндальная мука",
+    "ID": 1111,
+    "GramsInPce": 0,
+    "GramsInCup": 140
+  },
+  {
+    "Name": "Пшеничная цельнозерновая мука",
+    "ID": 1112,
+    "GramsInPce": 0,
+    "GramsInCup": 140
+  },
+  {
+    "Name": "Гречневая мука",
+    "ID": 1113,
+    "GramsInPce": 0,
+    "GramsInCup": 140
+  },
+  {
+    "Name": "Савоярди",
+    "ID": 1115,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Песочное тесто",
+    "ID": 1116,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Пресное тесто",
+    "ID": 1117,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Рисовая бумага",
+    "ID": 1118,
+    "GramsInPce": 10,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сдобное тесто",
+    "ID": 1119,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сухари",
+    "ID": 1120,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Хлеб",
+    "ID": 1122,
+    "GramsInPce": 25,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Лепешка",
+    "ID": 1123,
+    "GramsInPce": 60,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Батон",
+    "ID": 1125,
+    "GramsInPce": 1000,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Тортилья",
+    "ID": 1126,
+    "GramsInPce": 50,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Булочка",
+    "ID": 1127,
+    "GramsInPce": 40,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Черный хлеб",
+    "ID": 1128,
+    "GramsInPce": 25,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Белый хлеб",
+    "ID": 1129,
+    "GramsInPce": 25,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Лаваш",
+    "ID": 1130,
+    "GramsInPce": 15,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Хлебное тесто",
+    "ID": 1131,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Кукурузные хлопья",
+    "ID": 1133,
+    "GramsInPce": 0,
+    "GramsInCup": 40
+  },
+  {
+    "Name": "Каннеллони",
+    "ID": 1134,
+    "GramsInPce": 3,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Лапша",
+    "ID": 1135,
+    "GramsInPce": 0,
+    "GramsInCup": 100
+  },
+  {
+    "Name": "Рисовая лапша",
+    "ID": 1136,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Листы лазаньи",
+    "ID": 1137,
+    "GramsInPce": 40,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Макароны",
+    "ID": 1138,
+    "GramsInPce": 0,
+    "GramsInCup": 230
+  },
+  {
+    "Name": "Спагетти",
+    "ID": 1139,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Бобы",
+    "ID": 1140,
+    "GramsInPce": 0,
+    "GramsInCup": 210
+  },
+  {
+    "Name": "Маш",
+    "ID": 1141,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Горох",
+    "ID": 1142,
+    "GramsInPce": 0,
+    "GramsInCup": 230
+  },
+  {
+    "Name": "Соя",
+    "ID": 1143,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Тамаринд",
+    "ID": 1144,
+    "GramsInPce": 0,
+    "GramsInCup": 220
+  },
+  {
+    "Name": "Чечевица",
+    "ID": 1147,
+    "GramsInPce": 0,
+    "GramsInCup": 170
+  },
+  {
+    "Name": "Арахис орехи",
+    "ID": 1149,
+    "GramsInPce": 0,
+    "GramsInCup": 175
+  },
+  {
+    "Name": "Кокос орехи",
+    "ID": 1151,
+    "GramsInPce": 1800,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Миндальные лепестки",
+    "ID": 1155,
+    "GramsInPce": 0,
+    "GramsInCup": 100
+  },
+  {
+    "Name": "Тыквенные семечки",
+    "ID": 1158,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Семена льна",
+    "ID": 1159,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Семечки подсолнечника",
+    "ID": 1160,
+    "GramsInPce": 0,
+    "GramsInCup": 170
+  },
+  {
+    "Name": "Ядра косточек абрикоса",
+    "ID": 1161,
+    "GramsInPce": 0,
+    "GramsInCup": 150
+  },
+  {
+    "Name": "Шишки сосновые",
+    "ID": 1162,
+    "GramsInPce": 10,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Варенье любое",
+    "ID": 1163,
+    "GramsInPce": 0,
+    "GramsInCup": 250
+  },
+  {
+    "Name": "Варенье абрикосовое",
+    "ID": 1164,
+    "GramsInPce": 0,
+    "GramsInCup": 250
+  },
+  {
+    "Name": "Готовый пудинг",
+    "ID": 1165,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Джем",
+    "ID": 1166,
+    "GramsInPce": 0,
+    "GramsInCup": 250
+  },
+  {
+    "Name": "Маршмэллоу",
+    "ID": 1167,
+    "GramsInPce": 10,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Ириски",
+    "ID": 1168,
+    "GramsInPce": 7,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Кондитерская посыпка",
+    "ID": 1169,
+    "GramsInPce": 0,
+    "GramsInCup": 130
+  },
+  {
+    "Name": "Конфеты",
+    "ID": 1170,
+    "GramsInPce": 20,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Конфитюр",
+    "ID": 1172,
+    "GramsInPce": 0,
+    "GramsInCup": 270
+  },
+  {
+    "Name": "Марципан",
+    "ID": 1173,
+    "GramsInPce": 0,
+    "GramsInCup": 120
+  },
+  {
+    "Name": "Повидло",
+    "ID": 1174,
+    "GramsInPce": 0,
+    "GramsInCup": 230
+  },
+  {
+    "Name": "Сахар",
+    "ID": 1175,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Коричневый сахар",
+    "ID": 1176,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Желирующий сахар",
+    "ID": 1178,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сироп",
+    "ID": 1179,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Сахарный сироп",
+    "ID": 1180,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Кленовый сироп",
+    "ID": 1181,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Гранатовый сироп",
+    "ID": 1182,
+    "GramsInPce": 0,
+    "GramsInCup": 190
+  },
+  {
+    "Name": "Клюквенный сироп",
+    "ID": 1183,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Халва",
+    "ID": 1185,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Темный шоколад",
+    "ID": 1186,
+    "GramsInPce": 100,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Бельгийский шоколад",
+    "ID": 1187,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Алкоголь",
+    "ID": 1189,
+    "GramsInPce": 0,
+    "GramsInCup": 190
+  },
+  {
+    "Name": "Абсент",
+    "ID": 1190,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Мартини",
+    "ID": 1193,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Вино",
+    "ID": 1194,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Винный камень",
+    "ID": 1195,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Винная кислота",
+    "ID": 1196,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Рисовое вино",
+    "ID": 1197,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Вино крепкое (мадера)",
+    "ID": 1198,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Коньяк",
+    "ID": 1201,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Ликер",
+    "ID": 1202,
+    "GramsInPce": 0,
+    "GramsInCup": 250
+  },
+  {
+    "Name": "Пиво",
+    "ID": 1203,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Ликер baileys",
+    "ID": 1206,
+    "GramsInPce": 0,
+    "GramsInCup": 230
+  },
+  {
+    "Name": "Апельсиновый ликер",
+    "ID": 1207,
+    "GramsInPce": 0,
+    "GramsInCup": 230
+  },
+  {
+    "Name": "Ликер cointreau",
+    "ID": 1208,
+    "GramsInPce": 0,
+    "GramsInCup": 230
+  },
+  {
+    "Name": "Шоколадный ликер",
+    "ID": 1209,
+    "GramsInPce": 0,
+    "GramsInCup": 230
+  },
+  {
+    "Name": "Кофейный ликер",
+    "ID": 1210,
+    "GramsInPce": 0,
+    "GramsInCup": 230
+  },
+  {
+    "Name": "Настойка",
+    "ID": 1211,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Спирт",
+    "ID": 1212,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Шампанское",
+    "ID": 1214,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Приправа Магги",
+    "ID": 1216,
+    "GramsInPce": 5,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Бадьян",
+    "ID": 1217,
+    "GramsInPce": 3,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Ванильная настойка",
+    "ID": 1218,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Ванильный сахар",
+    "ID": 1219,
+    "GramsInPce": 10,
+    "GramsInCup": 190
+  },
+  {
+    "Name": "Ванильный экстракт",
+    "ID": 1220,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Стручок ванили",
+    "ID": 1221,
+    "GramsInPce": 2,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Ваниль",
+    "ID": 1223,
+    "GramsInPce": 4,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Бульонный кубик",
+    "ID": 1224,
+    "GramsInPce": 10,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Барбарис",
+    "ID": 1226,
+    "GramsInPce": 3,
+    "GramsInCup": 165
+  },
+  {
+    "Name": "Горчица",
+    "ID": 1227,
+    "GramsInPce": 0,
+    "GramsInCup": 130
+  },
+  {
+    "Name": "Душица",
+    "ID": 1228,
+    "GramsInPce": 0,
+    "GramsInCup": 160
+  },
+  {
+    "Name": "Жасмин",
+    "ID": 1229,
+    "GramsInPce": 0,
+    "GramsInCup": 160
+  },
+  {
+    "Name": "Зелень ",
+    "ID": 1230,
+    "GramsInPce": 50,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Иссоп",
+    "ID": 1232,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Каперсы",
+    "ID": 1234,
+    "GramsInPce": 0,
+    "GramsInCup": 110
+  },
+  {
+    "Name": "Кервель",
+    "ID": 1235,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Кинза, кориандр",
+    "ID": 1236,
+    "GramsInPce": 40,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Молотый кориандр",
+    "ID": 1237,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Зелень кинзы",
+    "ID": 1239,
+    "GramsInPce": 40,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Конопляное зерно",
+    "ID": 1240,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Майоран сухой",
+    "ID": 1243,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Майоран свежий",
+    "ID": 1244,
+    "GramsInPce": 2,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Мелисса",
+    "ID": 1245,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Можжевеловые ягоды",
+    "ID": 1246,
+    "GramsInPce": 3,
+    "GramsInCup": 160
+  },
+  {
+    "Name": "Мята",
+    "ID": 1247,
+    "GramsInPce": 2,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Орегано",
+    "ID": 1248,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Орегано свежий",
+    "ID": 1249,
+    "GramsInPce": 2,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Орегано сухой",
+    "ID": 1250,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Пажитник",
+    "ID": 1251,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Паста Мисо",
+    "ID": 1252,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Перец",
+    "ID": 1253,
+    "GramsInPce": 15,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Перец розовый молотый",
+    "ID": 1254,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Гвоздичный перец (душистый перец)",
+    "ID": 1255,
+    "GramsInPce": 10,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Белый перец",
+    "ID": 1256,
+    "GramsInPce": 0,
+    "GramsInCup": 165
+  },
+  {
+    "Name": "Душистый перец",
+    "ID": 1257,
+    "GramsInPce": 1,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Кайенский перец",
+    "ID": 1258,
+    "GramsInPce": 20,
+    "GramsInCup": 160
+  },
+  {
+    "Name": "Паприка",
+    "ID": 1259,
+    "GramsInPce": 20,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Перец острый молотый",
+    "ID": 1260,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Полынь",
+    "ID": 1262,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Перец острый стручковый",
+    "ID": 1263,
+    "GramsInPce": 20,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Розмарин свежий",
+    "ID": 1264,
+    "GramsInPce": 2,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Розмарин сухой",
+    "ID": 1265,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Соль",
+    "ID": 1266,
+    "GramsInPce": 0,
+    "GramsInCup": 325
+  },
+  {
+    "Name": "Йодированная соль",
+    "ID": 1267,
+    "GramsInPce": 0,
+    "GramsInCup": 300
+  },
+  {
+    "Name": "Поваренная соль",
+    "ID": 1268,
+    "GramsInPce": 0,
+    "GramsInCup": 300
+  },
+  {
+    "Name": "Морская соль",
+    "ID": 1269,
+    "GramsInPce": 0,
+    "GramsInCup": 325
+  },
+  {
+    "Name": "Специи сухие",
+    "ID": 1270,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Сумак",
+    "ID": 1271,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Танин",
+    "ID": 1272,
+    "GramsInPce": 0,
+    "GramsInCup": 150
+  },
+  {
+    "Name": "Уксус",
+    "ID": 1274,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Столовый уксус",
+    "ID": 1275,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Яблочный уксус",
+    "ID": 1276,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Бальзамический уксус",
+    "ID": 1277,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Рисовый уксус",
+    "ID": 1278,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Винный уксус белый",
+    "ID": 1279,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Уксусная эссенция",
+    "ID": 1280,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Уцхо-сунели",
+    "ID": 1281,
+    "GramsInPce": 0,
+    "GramsInCup": 150
+  },
+  {
+    "Name": "Корень хрена",
+    "ID": 1282,
+    "GramsInPce": 100,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Цедра",
+    "ID": 1283,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Лимонная цедра",
+    "ID": 1284,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Мандариновая цедра",
+    "ID": 1285,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Чесночные стрелки",
+    "ID": 1286,
+    "GramsInPce": 20,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Чесночный порошок",
+    "ID": 1287,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Маргарин",
+    "ID": 1289,
+    "GramsInPce": 0,
+    "GramsInCup": 230
+  },
+  {
+    "Name": "Масло кукурузное",
+    "ID": 1290,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Кунжутное масло",
+    "ID": 1293,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Соевое масло",
+    "ID": 1294,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Свиной жир",
+    "ID": 1296,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Топленое масло",
+    "ID": 1298,
+    "GramsInPce": 0,
+    "GramsInCup": 240
+  },
+  {
+    "Name": "Шоколадное масло",
+    "ID": 1299,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Аспирин",
+    "ID": 1302,
+    "GramsInPce": 1,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Бульон",
+    "ID": 1303,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Вода",
+    "ID": 1304,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Компот",
+    "ID": 1305,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Лед",
+    "ID": 1306,
+    "GramsInPce": 0,
+    "GramsInCup": 100
+  },
+  {
+    "Name": "Минеральная вода",
+    "ID": 1307,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Селитра",
+    "ID": 1308,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Отвар",
+    "ID": 1309,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Сидр",
+    "ID": 1310,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Газировка",
+    "ID": 1311,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Лимонад",
+    "ID": 1312,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Содовая",
+    "ID": 1313,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Агар-агар",
+    "ID": 1315,
+    "GramsInPce": 0,
+    "GramsInCup": 250
+  },
+  {
+    "Name": "Пектин",
+    "ID": 1316,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Глютамат натрия",
+    "ID": 1317,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Жидкий дым",
+    "ID": 1318,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Загуститель",
+    "ID": 1319,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Кокосовое молоко",
+    "ID": 1320,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Кофе",
+    "ID": 1321,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Кофе молотый",
+    "ID": 1323,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Пепсин",
+    "ID": 1325,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Пищевой краситель",
+    "ID": 1326,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Попкорн",
+    "ID": 1327,
+    "GramsInPce": 0,
+    "GramsInCup": 25
+  },
+  {
+    "Name": "Сода пищевая",
+    "ID": 1328,
+    "GramsInPce": 0,
+    "GramsInCup": 300
+  },
+  {
+    "Name": "Сок",
+    "ID": 1329,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Березовый сок",
+    "ID": 1330,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Гранатовый сок",
+    "ID": 1331,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Клюквенный сок",
+    "ID": 1332,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Лимонный сок",
+    "ID": 1333,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Сок дыни",
+    "ID": 1334,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Сок лайма",
+    "ID": 1336,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Тоник",
+    "ID": 1337,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Уголь",
+    "ID": 1338,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Фруктоза",
+    "ID": 1339,
+    "GramsInPce": 0,
+    "GramsInCup": 190
+  },
+  {
+    "Name": "Чай",
+    "ID": 1340,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Черный чай",
+    "ID": 1342,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Зеленый чай",
+    "ID": 1343,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Щирица",
+    "ID": 1344,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Чистотел",
+    "ID": 1345,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Цветки липы",
+    "ID": 1346,
+    "GramsInPce": 0,
+    "GramsInCup": 150
+  },
+  {
+    "Name": "Хмель",
+    "ID": 1347,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Солод",
+    "ID": 1348,
+    "GramsInPce": 0,
+    "GramsInCup": 240
+  },
+  {
+    "Name": "Смесь трав",
+    "ID": 1349,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Свекольные листья",
+    "ID": 1350,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Росторопша",
+    "ID": 1351,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Луковая шелуха",
+    "ID": 1354,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Листья клубники",
+    "ID": 1355,
+    "GramsInPce": 1,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Листья ежевики",
+    "ID": 1356,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Листья дуба",
+    "ID": 1357,
+    "GramsInPce": 1,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Листья вишни",
+    "ID": 1358,
+    "GramsInPce": 2,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Листья виноградные",
+    "ID": 1359,
+    "GramsInPce": 1,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Лимонник",
+    "ID": 1360,
+    "GramsInPce": 0,
+    "GramsInCup": 150
+  },
+  {
+    "Name": "Лепестки роз",
+    "ID": 1361,
+    "GramsInPce": 1,
+    "GramsInCup": 40
+  },
+  {
+    "Name": "Лен",
+    "ID": 1362,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Лемонграсс",
+    "ID": 1363,
+    "GramsInPce": 4,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Крапива",
+    "ID": 1364,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Коренья",
+    "ID": 1365,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Лук",
+    "ID": 1368,
+    "GramsInPce": 80,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Мука",
+    "ID": 1369,
+    "GramsInPce": 0,
+    "GramsInCup": 130
+  },
+  {
+    "Name": "Икра красная",
+    "ID": 1371,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Каркаде",
+    "ID": 1372,
+    "GramsInPce": 0,
+    "GramsInCup": 100
+  },
+  {
+    "Name": "Ромашка",
+    "ID": 1373,
+    "GramsInPce": 0,
+    "GramsInCup": 150
+  },
+  {
+    "Name": "Кожура, кора",
+    "ID": 1374,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Стевия",
+    "ID": 1375,
+    "GramsInPce": 100,
+    "GramsInCup": 50
+  },
+  {
+    "Name": "Стевия сухая в листьях",
+    "ID": 1376,
+    "GramsInPce": 100,
+    "GramsInCup": 50
+  },
+  {
+    "Name": "Стевия в пакетиках",
+    "ID": 1377,
+    "GramsInPce": 10,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Экстракт стевии в таблетках",
+    "ID": 1379,
+    "GramsInPce": 2,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Мацони",
+    "ID": 1380,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Солонина",
+    "ID": 1381,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Рубец",
+    "ID": 1382,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Пангасиус",
+    "ID": 1383,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Лакедра Желтохвост",
+    "ID": 1384,
+    "GramsInPce": 900,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Мясо страуса",
+    "ID": 1386,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Помидоры зеленые",
+    "ID": 1387,
+    "GramsInPce": 100,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Спаржа зеленая",
+    "ID": 1388,
+    "GramsInPce": 50,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Спаржа белая",
+    "ID": 1389,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Спаржа фиолетовая",
+    "ID": 1390,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сушеные баклажаны",
+    "ID": 1393,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сушеные помидоры",
+    "ID": 1394,
+    "GramsInPce": 20,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сушеный лук",
+    "ID": 1395,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Смесь цукатов",
+    "ID": 1397,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сушеный инжир",
+    "ID": 1398,
+    "GramsInPce": 20,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сушеные яблоки",
+    "ID": 1399,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сушеная вишня",
+    "ID": 1400,
+    "GramsInPce": 0,
+    "GramsInCup": 220
+  },
+  {
+    "Name": "Гречневая лапша",
+    "ID": 1401,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Стеклянная лапша",
+    "ID": 1402,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Китайская лапша быстрого приготовления",
+    "ID": 1403,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Фетучини",
+    "ID": 1404,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Макароны ракушки",
+    "ID": 1405,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Тальятелле",
+    "ID": 1406,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Пенне",
+    "ID": 1407,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Фарфалле",
+    "ID": 1408,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Гречка ядрица",
+    "ID": 1412,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Гречка дробленая",
+    "ID": 1413,
+    "GramsInPce": 0,
+    "GramsInCup": 150
+  },
+  {
+    "Name": "Дикий рис",
+    "ID": 1415,
+    "GramsInPce": 0,
+    "GramsInCup": 230
+  },
+  {
+    "Name": "Рис басмати",
+    "ID": 1416,
+    "GramsInPce": 0,
+    "GramsInCup": 220
+  },
+  {
+    "Name": "Рис жасмин",
+    "ID": 1417,
+    "GramsInPce": 0,
+    "GramsInCup": 230
+  },
+  {
+    "Name": "Коричневый рис",
+    "ID": 1418,
+    "GramsInPce": 0,
+    "GramsInCup": 230
+  },
+  {
+    "Name": "Красный рис",
+    "ID": 1419,
+    "GramsInPce": 0,
+    "GramsInCup": 230
+  },
+  {
+    "Name": "Пропаренный рис",
+    "ID": 1420,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Круглый рис",
+    "ID": 1421,
+    "GramsInPce": 0,
+    "GramsInCup": 230
+  },
+  {
+    "Name": "Сладкий рис",
+    "ID": 1422,
+    "GramsInPce": 0,
+    "GramsInCup": 220
+  },
+  {
+    "Name": "Нешлифованный рис",
+    "ID": 1423,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Горох желтый",
+    "ID": 1425,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Фасоль белая",
+    "ID": 1426,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Фасоль красная",
+    "ID": 1427,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Фасоль консервированная",
+    "ID": 1428,
+    "GramsInPce": 0,
+    "GramsInCup": 150
+  },
+  {
+    "Name": "Зеленая чечевица",
+    "ID": 1429,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Черная чечевица",
+    "ID": 1430,
+    "GramsInPce": 0,
+    "GramsInCup": 170
+  },
+  {
+    "Name": "Вареное сгущенное молоко",
+    "ID": 1431,
+    "GramsInPce": 380,
+    "GramsInCup": 300
+  },
+  {
+    "Name": "Горький миндаль",
+    "ID": 1432,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сухие дрожжи",
+    "ID": 1433,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Мятный сироп",
+    "ID": 1434,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Кюрасао",
+    "ID": 1435,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Тыквеное масло",
+    "ID": 1440,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Мясной бульон",
+    "ID": 1441,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Куриный бульон",
+    "ID": 1442,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Рыбный бульон",
+    "ID": 1443,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Овощной бульон",
+    "ID": 1444,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Грибной бульон",
+    "ID": 1445,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Порошок горчицы",
+    "ID": 1446,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Горчица готовая",
+    "ID": 1447,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Дижонская горчица",
+    "ID": 1448,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Порошок имбиря",
+    "ID": 1449,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Маринованный имбирь",
+    "ID": 1450,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Шалфей сухой",
+    "ID": 1451,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Шалфей свежий",
+    "ID": 1452,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Винный уксус красный",
+    "ID": 1453,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Палочка корицы",
+    "ID": 1454,
+    "GramsInPce": 7,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Молотая корица",
+    "ID": 1455,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Овечий сыр",
+    "ID": 1456,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Козий сыр",
+    "ID": 1457,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сыр с плесенью",
+    "ID": 1458,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Рассольный сыр",
+    "ID": 1459,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Чечил",
+    "ID": 1474,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Масляная рыба",
+    "ID": 1475,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Гороховая мука",
+    "ID": 1476,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Терпуг",
+    "ID": 1477,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Свиная шейка",
+    "ID": 1478,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Соевое мясо",
+    "ID": 1479,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Рапаны",
+    "ID": 1480,
+    "GramsInPce": 20,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Мясо нутрии",
+    "ID": 1481,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Вомер копченый",
+    "ID": 1489,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Дорады",
+    "ID": 1493,
+    "GramsInPce": 850,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Камамбер",
+    "ID": 1500,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Макрyрyс",
+    "ID": 1502,
+    "GramsInPce": 1000,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Красная рыба",
+    "ID": 1510,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Красная чечевица",
+    "ID": 1511,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Папоротник",
+    "ID": 1512,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Минога",
+    "ID": 1514,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сахарозаменитель",
+    "ID": 1515,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Тапиока",
+    "ID": 1516,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Хлебцы ржаные",
+    "ID": 1517,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Мясо барсука",
+    "ID": 1518,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Мясо кабана",
+    "ID": 1519,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Мясо бобра",
+    "ID": 1520,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Медвежатина",
+    "ID": 1521,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Молоки рыб",
+    "ID": 1523,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Пророщенная пшеница",
+    "ID": 1524,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Пророщенный овес",
+    "ID": 1525,
+    "GramsInPce": 0,
+    "GramsInCup": 80
+  },
+  {
+    "Name": "Пророщенная гречка",
+    "ID": 1526,
+    "GramsInPce": 0,
+    "GramsInCup": 220
+  },
+  {
+    "Name": "Пророщенная соя",
+    "ID": 1527,
+    "GramsInPce": 0,
+    "GramsInCup": 150
+  },
+  {
+    "Name": "Пророщенный маш",
+    "ID": 1528,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Свинина - рулька",
+    "ID": 1529,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Цыплята корнишоны",
+    "ID": 1530,
+    "GramsInPce": 400,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Ставрида",
+    "ID": 1531,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Козлятина",
+    "ID": 1532,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Печень щуки",
+    "ID": 1533,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Копченая курица",
+    "ID": 1536,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Корейская морковь",
+    "ID": 1537,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Тесто фило",
+    "ID": 1538,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Киноа",
+    "ID": 1539,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Черноплодная рябина",
+    "ID": 1540,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Красная рябина",
+    "ID": 1541,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Мозги говяжьи",
+    "ID": 1543,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Мясо криля",
+    "ID": 1544,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Куропатки",
+    "ID": 1545,
+    "GramsInPce": 450,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Листья смородины",
+    "ID": 1546,
+    "GramsInPce": 2,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Утка i категории",
+    "ID": 1547,
+    "GramsInPce": 2000,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Льняная мука",
+    "ID": 1548,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Крекер печенье",
+    "ID": 1549,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Печенье бисквитное",
+    "ID": 1554,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Тарталетки",
+    "ID": 1555,
+    "GramsInPce": 20,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Виноградный жмых",
+    "ID": 1556,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сыр фетакса",
+    "ID": 1557,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Свиная голова",
+    "ID": 1558,
+    "GramsInPce": 8000,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Замороженные голубцы",
+    "ID": 1559,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Утиные окорочка",
+    "ID": 1560,
+    "GramsInPce": 200,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Свиные желудки",
+    "ID": 1561,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Грудинка свиная",
+    "ID": 1562,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Курдючный жир",
+    "ID": 1563,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Салат корн",
+    "ID": 1565,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Горчица зернистая",
+    "ID": 1566,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Смесь молотых перцев",
+    "ID": 1567,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Смесь перцев горошком",
+    "ID": 1568,
+    "GramsInPce": 0.25,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Салака",
+    "ID": 1569,
+    "GramsInPce": 30,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Протеин",
+    "ID": 1570,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Бараньи яйца",
+    "ID": 1572,
+    "GramsInPce": 120,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Лимонелла",
+    "ID": 1573,
+    "GramsInPce": 700,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Молодой картофель",
+    "ID": 1575,
+    "GramsInPce": 80,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Лапша Удон",
+    "ID": 1576,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Навага",
+    "ID": 1577,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Молодая капуста",
+    "ID": 1579,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Молодые кабачки",
+    "ID": 1580,
+    "GramsInPce": 250,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Коржи вафельные",
+    "ID": 1581,
+    "GramsInPce": 9.3,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Барабулька",
+    "ID": 1582,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Бисквитные коржи",
+    "ID": 1583,
+    "GramsInPce": 570,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Песочные коржи",
+    "ID": 1584,
+    "GramsInPce": 300,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Масляный крем",
+    "ID": 1585,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сливочный крем",
+    "ID": 1587,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сухой квас",
+    "ID": 1590,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Соус Терияки",
+    "ID": 1591,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Кислое молоко",
+    "ID": 1592,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Кока-кола",
+    "ID": 1593,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Миндальный экстракт",
+    "ID": 1594,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Желфикс",
+    "ID": 1595,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Икра карася",
+    "ID": 1596,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Замороженные овощи",
+    "ID": 1597,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Мексиканская смесь замороженная",
+    "ID": 1598,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Гавайская смесь замороженная",
+    "ID": 1599,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Итальянская смесь замороженная",
+    "ID": 1601,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сухой крем для торта",
+    "ID": 1603,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Свиной язык",
+    "ID": 1604,
+    "GramsInPce": 300,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Инвертный сироп",
+    "ID": 1605,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Какао масло",
+    "ID": 1606,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Тесто",
+    "ID": 1607,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Козье молоко",
+    "ID": 1611,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Спаржевая фасоль",
+    "ID": 1612,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Утиная грудка",
+    "ID": 1613,
+    "GramsInPce": 300,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Адыгейский сыр",
+    "ID": 1614,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Баранья нога",
+    "ID": 1615,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Бычьи яйца",
+    "ID": 1616,
+    "GramsInPce": 150,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Замороженная вишня",
+    "ID": 1617,
+    "GramsInPce": 0,
+    "GramsInCup": 160
+  },
+  {
+    "Name": "Бамия",
+    "ID": 1618,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Свиная вырезка",
+    "ID": 1619,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Говяжьи ребрышки",
+    "ID": 1620,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Икра мойвы",
+    "ID": 1621,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Соевая мука",
+    "ID": 1622,
+    "GramsInPce": 0,
+    "GramsInCup": 140
+  },
+  {
+    "Name": "Слоеное дрожжевое тесто",
+    "ID": 1623,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Копченые ребрышки свиные",
+    "ID": 1624,
+    "GramsInPce": 200,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Яичная лапша",
+    "ID": 1625,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Вяленые помидоры",
+    "ID": 1626,
+    "GramsInPce": 15,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Квасное сусло концентрат",
+    "ID": 1627,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Строчки грибы",
+    "ID": 1628,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Вигна коровий горох",
+    "ID": 1629,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Соус Демиглас",
+    "ID": 1630,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Мука амаранта",
+    "ID": 1631,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Королевские шампиньоны",
+    "ID": 1632,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Таркинский перец",
+    "ID": 1633,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Чиа семена",
+    "ID": 1634,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Сибас",
+    "ID": 1635,
+    "GramsInPce": 400,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Подчеревок свиной",
+    "ID": 1636,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Корень сельдерея",
+    "ID": 1637,
+    "GramsInPce": 200,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Стебель сельдерея",
+    "ID": 1638,
+    "GramsInPce": 70,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Виноградный уксус",
+    "ID": 1639,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Крыло индейки",
+    "ID": 1640,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Лангустин",
+    "ID": 1641,
+    "GramsInPce": 400,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Нерка",
+    "ID": 1642,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Говяжья вырезка",
+    "ID": 1643,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сыр косичка",
+    "ID": 1644,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сухие сливки",
+    "ID": 1645,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Хариус",
+    "ID": 1646,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Бедро индейки",
+    "ID": 1647,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Кальмар тушка",
+    "ID": 1648,
+    "GramsInPce": 200,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Щупальца кальмара",
+    "ID": 1649,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Кольца кальмара",
+    "ID": 1650,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Свиная щековина",
+    "ID": 1651,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Брюшки семги",
+    "ID": 1652,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Итальянские травы смесь",
+    "ID": 1653,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Толокно овсяное",
+    "ID": 1654,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Утиная печень",
+    "ID": 1657,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Псиллиум",
+    "ID": 1658,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Гусиная печень",
+    "ID": 1659,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Красноглазка",
+    "ID": 1660,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Замороженные опята",
+    "ID": 1661,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Пекан",
+    "ID": 1662,
+    "GramsInPce": 0,
+    "GramsInCup": 100
+  },
+  {
+    "Name": "Сухой кисель",
+    "ID": 1663,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Ксилит",
+    "ID": 1664,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Куриные шеи",
+    "ID": 1665,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Кэроб",
+    "ID": 1666,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Гарам масала",
+    "ID": 1667,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Молоко 2,5% жирности",
+    "ID": 1668,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Кефир 2,5% жирности",
+    "ID": 1669,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Индоутка",
+    "ID": 1670,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Березовые почки",
+    "ID": 1672,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Тунец консервированный в собственном соку",
+    "ID": 1673,
+    "GramsInPce": 240,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Куриные бедрышки",
+    "ID": 1674,
+    "GramsInPce": 200,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Скумбрия консервированная",
+    "ID": 1675,
+    "GramsInPce": 240,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Горбуша консервированная",
+    "ID": 1676,
+    "GramsInPce": 240,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сардины консервированные",
+    "ID": 1677,
+    "GramsInPce": 240,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Кальмары консервированные",
+    "ID": 1678,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сайра консервированная",
+    "ID": 1679,
+    "GramsInPce": 240,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Минтай консервированный",
+    "ID": 1680,
+    "GramsInPce": 240,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Щучья икра",
+    "ID": 1681,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Морской коктейль",
+    "ID": 1683,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сухие соевые сливки",
+    "ID": 1685,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Шоколадное печенье",
+    "ID": 1686,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Килька в томатном соусе",
+    "ID": 1687,
+    "GramsInPce": 240,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Говяжья печень",
+    "ID": 1688,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Консервированные шампиньоны",
+    "ID": 1689,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Корейка свиная",
+    "ID": 1690,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Самогон",
+    "ID": 1691,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Пшеничные хлопья",
+    "ID": 1693,
+    "GramsInPce": 0,
+    "GramsInCup": 150
+  },
+  {
+    "Name": "Морковная ботва",
+    "ID": 1694,
+    "GramsInPce": 60,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Филе трески",
+    "ID": 1699,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Свинушки",
+    "ID": 1701,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Филе утки",
+    "ID": 1721,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Икра трески",
+    "ID": 1722,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Куриные лапки",
+    "ID": 1723,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Замороженные ягоды",
+    "ID": 1724,
+    "GramsInPce": 0,
+    "GramsInCup": 160
+  },
+  {
+    "Name": "Макароны Рожки",
+    "ID": 1725,
+    "GramsInPce": 0,
+    "GramsInCup": 190
+  },
+  {
+    "Name": "Охотничьи колбаски",
+    "ID": 1726,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Полба",
+    "ID": 1727,
+    "GramsInPce": 0,
+    "GramsInCup": 160
+  },
+  {
+    "Name": "Крахмальная лапша",
+    "ID": 1728,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Белый амур",
+    "ID": 1729,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Фарш индейки",
+    "ID": 1731,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Овсяные отруби",
+    "ID": 1732,
+    "GramsInPce": 0,
+    "GramsInCup": 55
+  },
+  {
+    "Name": "Пшеничные отруби",
+    "ID": 1733,
+    "GramsInPce": 0,
+    "GramsInCup": 55
+  },
+  {
+    "Name": "Отруби ржаные",
+    "ID": 1734,
+    "GramsInPce": 0,
+    "GramsInCup": 55
+  },
+  {
+    "Name": "Кукурузные отруби",
+    "ID": 1735,
+    "GramsInPce": 0,
+    "GramsInCup": 55
+  },
+  {
+    "Name": "Древесные грибы",
+    "ID": 1736,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Свежие дрожжи",
+    "ID": 1737,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Льняное масло",
+    "ID": 1738,
+    "GramsInPce": 0,
+    "GramsInCup": 180
+  },
+  {
+    "Name": "Ягоды годжи",
+    "ID": 1739,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Салат Айсберг",
+    "ID": 1740,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Бараньи ребрышки",
+    "ID": 1741,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Замороженная капуста",
+    "ID": 1742,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Филе горбуши",
+    "ID": 1744,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Икра сазана",
+    "ID": 1745,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Печень минтая",
+    "ID": 1746,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Кокосовая мука",
+    "ID": 1747,
+    "GramsInPce": 0,
+    "GramsInCup": 140
+  },
+  {
+    "Name": "Дор блю",
+    "ID": 1748,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Редька белая",
+    "ID": 1749,
+    "GramsInPce": 200,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Сердце индейки",
+    "ID": 1750,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Говяжий хвост",
+    "ID": 1751,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Листья салата",
+    "ID": 1752,
+    "GramsInPce": 7,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Слоеные коржи",
+    "ID": 1753,
+    "GramsInPce": 70,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Замороженная тыква",
+    "ID": 1755,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Замороженные грибы",
+    "ID": 1756,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Вареники готовые",
+    "ID": 1757,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Арахисовая паста",
+    "ID": 1758,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Плотва",
+    "ID": 1759,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Кукурузные палочки",
+    "ID": 1769,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Макароны гнезда",
+    "ID": 1770,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Копченые окорочка",
+    "ID": 1771,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Свиные щечки",
+    "ID": 1773,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Говяжьи щечки",
+    "ID": 1774,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Спаржа соевая",
+    "ID": 1777,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Икра минтая пробойная",
+    "ID": 1779,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Свиной фарш",
+    "ID": 1785,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Смешанный мясной фарш",
+    "ID": 1787,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Филе минтая",
+    "ID": 1791,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Топленое молоко",
+    "ID": 1793,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Мраморная говядина",
+    "ID": 1795,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Черные грузди",
+    "ID": 1797,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Грудка индейки",
+    "ID": 1798,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Рыбный фарш",
+    "ID": 1799,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Морской окунь",
+    "ID": 1800,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Голень индейки",
+    "ID": 1801,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Фарш свинина говядина",
+    "ID": 1802,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Замороженные мидии",
+    "ID": 1803,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Стейк лосося",
+    "ID": 1806,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Стейк форели",
+    "ID": 1811,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Стейк зубатки",
+    "ID": 1813,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Стейк кеты",
+    "ID": 1814,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Стейк горбуши",
+    "ID": 1815,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Стейк трески",
+    "ID": 1817,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Стейк тунца",
+    "ID": 1818,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Стейк акулы",
+    "ID": 1821,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Ааквафаба",
+    "ID": 1823,
+    "GramsInPce": 0,
+    "GramsInCup": 200
+  },
+  {
+    "Name": "Лопатка свиная",
+    "ID": 1824,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Ледяная рыба",
+    "ID": 1827,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Нутовая мука",
+    "ID": 1835,
+    "GramsInPce": 0,
+    "GramsInCup": 150
+  },
+  {
+    "Name": "Говяжья грудинка",
+    "ID": 1839,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Морская капуста сушеная",
+    "ID": 1841,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Королевские креветки",
+    "ID": 1844,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Лесные грибы",
+    "ID": 1847,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Желтые сливы",
+    "ID": 1919,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Свинина",
+    "ID": 2930,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Синий чай Анчан",
+    "ID": 3500,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  },
+  {
+    "Name": "Килька в томатном соусе",
+    "ID": 6683,
+    "GramsInPce": 0,
+    "GramsInCup": 0
+  }
+]
