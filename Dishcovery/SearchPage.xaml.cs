@@ -3,28 +3,25 @@ namespace Dishcovery;
 
 public partial class SearchPage : ContentPage
 {
-	public SearchPage(RecipesViewModel recipesViewModel)
-	{
-		InitializeComponent();
-		BindingContext = recipesViewModel;
+    public SearchPage(RecipesViewModel recipesViewModel)
+    {
+        InitializeComponent();
+        BindingContext = recipesViewModel;
         ImportanceSlider.Value = 0.8;
         CheckEntries();
         CheckTagEntry();
     }
     private void AddIngredientButton_Clicked(object sender, EventArgs e)
     {
-        loveSearchEntry.IsEnabled = false;
-        loveSearchEntry.IsEnabled = true;
-        quantityEntry.IsEnabled = false;
-        quantityEntry.IsEnabled = true;
+        loveSearchEntry.IsEnabled = false; loveSearchEntry.IsEnabled = true;
+        quantityEntry.IsEnabled = false; quantityEntry.IsEnabled = true;
         CheckEntries();
         //string request = loveSearchEntry.Text;
         //await ((RecipesViewModel)(this.BindingContext)).GetRecipesAsync(request);
     }
     private void BanIngredientButton_Clicked(object sender, EventArgs e)
     {
-        hateIngredientEntry.IsEnabled = false;
-        hateIngredientEntry.IsEnabled = true;
+        hateIngredientEntry.IsEnabled = false; hateIngredientEntry.IsEnabled = true;
         CheckEntries();
     }
     private void AddTagButton_Clicked(object sender, EventArgs e)

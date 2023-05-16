@@ -8,16 +8,12 @@ namespace Dishcovery;
 
 public class RequestFilter
 {
-    public List<IngredientView> RequiredIngredients { get; private set; }
-    public List<IngredientView> IgnoredIngredients { get; private set; }
-    public List<Tag> WantedTags { get; private set; }
-    public List<Tag> UnwantedTags { get; private set; }
+    public ObservableCollection<IngredientView> RequiredIngredients { get; private set; }
+    public ObservableCollection<IngredientView> IgnoredIngredients { get; private set; }
+    public ObservableCollection<Tag> WantedTags { get; private set; }
+    public ObservableCollection<Tag> UnwantedTags { get; private set; }
 
-    public RequestFilter(
-        List<IngredientView> required,
-        List<IngredientView> ignored,
-        List<Tag> wantedTags,
-        List<Tag> unwantedTags)
+    public RequestFilter(ObservableCollection<IngredientView> required, ObservableCollection<IngredientView> ignored, ObservableCollection<Tag> wantedTags, ObservableCollection<Tag> unwantedTags)
     {
         RequiredIngredients = required;
         IgnoredIngredients = ignored;
@@ -27,10 +23,10 @@ public class RequestFilter
 
     public RequestFilter()
     {
-        RequiredIngredients = new List<IngredientView>();
-        IgnoredIngredients = new List<IngredientView>();
-        WantedTags = new List<Tag>();
-        UnwantedTags = new List<Tag>();
+        RequiredIngredients = new ObservableCollection<IngredientView>();
+        IgnoredIngredients = new ObservableCollection<IngredientView>();
+        WantedTags = new ObservableCollection<Tag>();
+        UnwantedTags = new ObservableCollection<Tag>();
     }
 
     public void DisableIngredient(IngredientView ingredient)
@@ -95,5 +91,12 @@ public class RequestFilter
         {
             UnwantedTags.Remove(tag);
         }
+    }
+    public void ClearAll()
+    {
+        RequiredIngredients.Clear();
+        IgnoredIngredients.Clear();
+        WantedTags.Clear();
+        UnwantedTags.Clear();
     }
 }

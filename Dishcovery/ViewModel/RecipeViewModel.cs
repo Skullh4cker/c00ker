@@ -10,7 +10,7 @@ namespace Dishcovery.ViewModel;
 
 public partial class RecipesViewModel : BaseViewModel
 {
-    RequestFilter RequestFilter { get; set; } = new RequestFilter();
+    public RequestFilter RequestFilter { get; set; } = new RequestFilter();
     RecipeService recipeService;
     //public DataIngredient SearchedIngredient { get; set; }
     public ObservableCollection<Recipe> Recipes { get; } = new();
@@ -36,151 +36,85 @@ public partial class RecipesViewModel : BaseViewModel
         this.recipeService = recipeService;
         GetIngredientsAsync();
         GetTagsAsync();
-        AddIngredientCommand = new Command(async () =>
+        AddIngredientCommand = new Command(() =>
         {
-            try
+            if (CheckIngredient())
             {
-                if (CheckIngredient())
-                {
-                    var ing = Ingredients.ToList().Find(x => x.Name.ToLower() == IngredientName.ToLower());
+                var ing = Ingredients.ToList().Find(x => x.Name.ToLower() == IngredientName.ToLower());
 
-                    if (ing.Name.ToLower() == IngredientName.ToLower() && (IngredientQuantity != "" && IngredientQuantity != null) && (IngredientMeasurement != "" && IngredientMeasurement != null))
-                    {
-                        var ingr = new IngredientView(ing.Name, IngredientImportance, double.Parse(IngredientQuantity), IngredientMeasurement, ing.ID, ing.GramsInPce, ing.GramsInCup);
-                        Requests.AvailableIngredients.Add(ingr);
-                        RequestFilter.RequiredIngredients.Add(ingr);
-                    }
-                    else if (ing.Name.ToLower() == IngredientName.ToLower())
-                    {
-                        var ingr = new IngredientView(ing.Name, IngredientImportance, ing.ID, ing.GramsInPce, ing.GramsInCup);
-                        Requests.AvailableIngredients.Add(ingr);
-                        RequestFilter.RequiredIngredients.Add(ingr);
-                    }
-                }
-                IngredientQuantity = "";
-                IngredientName = "";
-                IngredientMeasurement = "";
-                IngredientMeasurements.Clear();
-                IngredientsHints.Clear();
-            }
-            catch (Exception ex)
-            {
-                await Shell.Current.DisplayAlert("Ошибка", ex.Message, "Ok");
-            }
-        });
-
-        BanIngredientCommand = new Command(async () =>
-        {
-            try
-            {
-                var ing = Ingredients.ToList().Find(x => x.Name.ToLower() == BannedIngredientName.ToLower());
-                if (ing.Name.ToLower() == BannedIngredientName.ToLower())
+                if (ing.Name.ToLower() == IngredientName.ToLower() && (IngredientQuantity != "" && IngredientQuantity != null) && (IngredientMeasurement != "" && IngredientMeasurement != null))
                 {
-                    Requests.ProhibitedIngredients.Add(new IngredientView(ing.Name, ing.ID));
-                    RequestFilter.IgnoredIngredients.Add(new IngredientView(ing.Name, ing.ID));
+                    var ingr = new IngredientView(ing.Name, IngredientImportance, double.Parse(IngredientQuantity), IngredientMeasurement, ing.ID, ing.GramsInPce, ing.GramsInCup);
+                    Requests.AvailableIngredients.Add(ingr);
+                    RequestFilter.RequireIngredient(ingr);
                 }
-                BannedIngredientName = "";
-            }
-            catch (Exception ex)
-            {
-                await Shell.Current.DisplayAlert("Something wrong, i can feel it", ex.Message, "Ok");
-            }
-        });
-        AddTagCommand = new Command(async () =>
-        {
-            try
-            {
-                var tag = Tags.ToList().Find(x => x.Name.ToLower() == TagName.ToLower());
-                if (tag.Name.ToLower() == TagName.ToLower())
+                else if (ing.Name.ToLower() == IngredientName.ToLower())
                 {
-                    Requests.DesiredTags.Add(new Tag(tag.Name));
-                    RequestFilter.WantedTags.Add(new Tag(tag.Name));
+                    var ingr = new IngredientView(ing.Name, IngredientImportance, ing.ID, ing.GramsInPce, ing.GramsInCup);
+                    Requests.AvailableIngredients.Add(ingr);
+                    RequestFilter.RequireIngredient(ingr);
                 }
             }
-            catch (Exception ex)
+            IngredientQuantity = "";
+            IngredientName = "";
+            IngredientMeasurement = "";
+            IngredientMeasurements.Clear();
+            IngredientsHints.Clear();
+        });
+        BanIngredientCommand = new Command(() =>
+        {
+            var ing = Ingredients.ToList().Find(x => x.Name.ToLower() == BannedIngredientName.ToLower());
+            if (ing.Name.ToLower() == BannedIngredientName.ToLower())
             {
-                await Shell.Current.DisplayAlert("Something wrong, i can feel it", ex.Message, "Ok");
+                RequestFilter.DisableIngredient(new IngredientView(ing.Name, ing.ID));
+            }
+            BannedIngredientName = "";
+        });
+        AddTagCommand = new Command(() =>
+        {
+            var tag = Tags.ToList().Find(x => x.Name.ToLower() == TagName.ToLower());
+            if (tag.Name.ToLower() == TagName.ToLower())
+            {
+                RequestFilter.RequireTag(new Tag(tag.Name));
             }
             TagName = "";
         });
-        AddProhibitedTagCommand = new Command(async () =>
+        AddProhibitedTagCommand = new Command(() =>
         {
-            try
+            var tag = Tags.ToList().Find(x => x.Name.ToLower() == TagName.ToLower());
+            if (tag.Name.ToLower() == TagName.ToLower())
             {
-                var tag = Tags.ToList().Find(x => x.Name.ToLower() == TagName.ToLower());
-                if (tag.Name.ToLower() == TagName.ToLower())
-                {
-                    Requests.ProhibitedTags.Add(new Tag(tag.Name));
-                    RequestFilter.UnwantedTags.Add(new Tag(tag.Name));
-                }
-                TagName = "";
+                RequestFilter.UnwantTag(new Tag(tag.Name));
             }
-            catch (Exception ex)
-            {
-                await Shell.Current.DisplayAlert("Something wrong, i can feel it", ex.Message, "Ok");
-            }
+            TagName = "";
         });
         ClearAllTabsCommand = new Command(() =>
         {
-            Requests.AvailableIngredients.Clear();
-            Requests.ProhibitedIngredients.Clear();
-            Requests.DesiredTags.Clear();
-            Requests.ProhibitedTags.Clear();
-            RequestFilter.RequiredIngredients.Clear();
-            RequestFilter.IgnoredIngredients.Clear();
-            RequestFilter.WantedTags.Clear();
-            RequestFilter.UnwantedTags.Clear();
+            RequestFilter.ClearAll();
         });
         DeleteIngredientTabCommand = new Command((object obj) =>
         {
             var content = obj as IngredientView;
-            Requests.AvailableIngredients.Remove(content);
-            RequestFilter.RequiredIngredients.Remove(RequestFilter.RequiredIngredients.Find(x => x.ID == content.ID));
+            RequestFilter.UnrequireIngredient(content);
         });
         DeleteProhibitedIngredientTabCommand = new Command((object obj) =>
         {
             var content = obj as IngredientView;
-            Requests.ProhibitedIngredients.Remove(content);
-            RequestFilter.IgnoredIngredients.Remove(RequestFilter.IgnoredIngredients.Find(x => x.ID == content.ID));
+            RequestFilter.EnableIngredient(content);
         });
         DeleteTagTabCommand = new Command((object obj) =>
         {
             var content = obj as Tag;
-            Requests.DesiredTags.Remove(content);
-            RequestFilter.WantedTags.Remove(RequestFilter.WantedTags.Find(x => x.Name == content.Name));
+            RequestFilter.RemoveWantedTag(content);
         });
         DeleteProhibitedTagTabCommand = new Command((object obj) =>
         {
             var content = obj as Tag;
-            Requests.ProhibitedTags.Remove(content);
-            RequestFilter.UnwantedTags.Remove(RequestFilter.UnwantedTags.Find(x => x.Name == content.Name));
+            RequestFilter.RemoveUnwantedTag(content);
         });
         SearchCommand = new Command(async () =>
         {
-            if(IsBusy) return;
-            try
-            {
-                IsBusy = true;
-                var test = await recipeService.GetRecipes();
-                if(Recipes.Count != 0)
-                    Recipes.Clear();
-
-                test = await Search.ApplyRequestFilter(RequestFilter, test);
-                foreach (var item in test)
-                {
-                    if(Recipes.Count<40)
-                        Recipes.Add(item);
-                }
-                IsBusy = false;
-            }
-            catch (Exception ex)
-            {
-                await Shell.Current.DisplayAlert("Something wrong, i can feel it", ex.Message, "Ok");
-            }
-            finally
-            {
-                IsBusy = false;
-            }
+            await GetRecipesAsync();
         });
     }
 
@@ -196,21 +130,23 @@ public partial class RecipesViewModel : BaseViewModel
                 {"Recipe", recipe}
             });
     }
-    public async Task GetRecipesAsync(string str)
+    public async Task GetRecipesAsync()
     {
         if (IsBusy) return;
         try
         {
             IsBusy = true;
-            var recipes = await recipeService.GetRecipes();
-
+            var allRecipes = await recipeService.GetRecipes();
             if (Recipes.Count != 0)
                 Recipes.Clear();
-            //var validRecipes = Search.GetValidRecipes(str, recipes);
-            //foreach (var validRecipe in validRecipes)
-            //{
-            //    Recipes.Add(validRecipe);
-            //}
+
+            allRecipes = await Search.ApplyRequestFilter(RequestFilter, allRecipes);
+            foreach (var item in allRecipes)
+            {
+                if (Recipes.Count < 40)
+                    Recipes.Add(item);
+            }
+            IsBusy = false;
         }
         catch (Exception ex)
         {
@@ -255,7 +191,7 @@ public partial class RecipesViewModel : BaseViewModel
             str = "";
             return false;
         }
-        if (Requests.AvailableIngredients.Any(x => x.Name.ToLower() == str.ToLower()) || Requests.ProhibitedIngredients.Any(x => x.Name.ToLower() == str.ToLower()))
+        if (RequestFilter.RequiredIngredients.Any(x => x.Name.ToLower() == str.ToLower()) || RequestFilter.IgnoredIngredients.Any(x => x.Name.ToLower() == str.ToLower()))
         {
             return false;
         }
@@ -268,7 +204,7 @@ public partial class RecipesViewModel : BaseViewModel
             str = "";
             return false;
         }
-        if (Requests.DesiredTags.Any(x => x.Name.ToLower() == str.ToLower()) || Requests.ProhibitedTags.Any(x => x.Name.ToLower() == str.ToLower()))
+        if (RequestFilter.WantedTags.Any(x => x.Name.ToLower() == str.ToLower()) || RequestFilter.UnwantedTags.Any(x => x.Name.ToLower() == str.ToLower()))
         {
             return false;
         }
@@ -323,12 +259,12 @@ public partial class RecipesViewModel : BaseViewModel
     }
     public void ConfirmDesiredIngredient(string searchedName)
     {
-        if(searchedName != null)
-        {
-            IngredientName = searchedName;
-            IngredientsHints.Clear();
-            CheckIngredient();
-        }
+            if (searchedName != null)
+            {
+                IngredientName = searchedName;
+                IngredientsHints.Clear();
+                CheckIngredient();
+            }
     }
     public void ConfirmProhibitedIngredient(string searchedName)
     {
