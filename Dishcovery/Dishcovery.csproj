@@ -90,5 +90,4 @@
 	</ItemGroup>
 
 	<ProjectExtensions><VisualStudio><UserProperties XamarinHotReloadDebuggerTimeoutExceptionDishcoveryHideInfoBar="True" /></VisualStudio></ProjectExtensions>
-
 </Project>

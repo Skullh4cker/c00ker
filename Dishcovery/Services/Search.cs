@@ -11,7 +11,6 @@ public static class Search
     //    }
     //    return -1;
     //}
-
     public async static Task<List<Recipe>> ApplyRequestFilter(RequestFilter filter, List<Recipe> Recipes)
     {
         var recipes = new Dictionary<Recipe, int>();

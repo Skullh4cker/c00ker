@@ -28,7 +28,6 @@ public partial class RecipesViewModel : BaseViewModel
     public ICommand DeleteProhibitedTagTabCommand { get; set; }
     public ICommand ClearAllTabsCommand { get; set; }
     public ICommand SearchCommand { get; set; }
-
     public RecipesViewModel(RecipeService recipeService)
     {
         this.recipeService = recipeService;

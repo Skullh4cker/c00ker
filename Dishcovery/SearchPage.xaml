@@ -7,7 +7,6 @@
              x:DataType="viewmodel:RecipesViewModel"
              xmlns:views="clr-namespace:Dishcovery"
              x:Class="Dishcovery.SearchPage">
-
     <Shell.TitleView>
         <Label VerticalOptions="Center" 
                FontFamily="NunitoSansBold" 
@@ -15,6 +14,7 @@
                FontSize="Large"
                TextColor="{StaticResource White}"/>
     </Shell.TitleView>
+    
     <Grid RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto, *" BackgroundColor="{StaticResource WhiteGray}" RowSpacing="5" Padding="3">
         <Grid ColumnDefinitions="*, Auto, Auto, Auto" ColumnSpacing="5">
               <Frame Style="{StaticResource CardView}" HeightRequest="35">
